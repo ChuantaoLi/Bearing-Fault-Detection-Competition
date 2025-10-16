@@ -49,7 +49,7 @@ params = {
     'K': 5,  # VMD分解数量，回到原来效果好的设置
     'alpha': 2000,
     'window_len': 128,
-    'ssa_threshold': 64,  # 为所有目标模态统一设置一个阈值
+    'ssa_threshold': 32,  # 为所有目标模态统一设置一个阈值
     # 指定要去噪的模态索引 (基于从高到低的频率排序)
     # [0, 1] = 去噪最高频和次高频的两个模态
     'denoise_indices': [0, 1, 2, 3, 4]
@@ -132,3 +132,4 @@ print(f"\n训练耗时 {end_time - start_time:.2f} 秒。")
 y_true, y_pred = evaluate_model(model, test_loader, DEVICE)
 calculate_metrics(y_true, y_pred)
 plot_confusion_matrix(y_true, y_pred, class_names)
+
