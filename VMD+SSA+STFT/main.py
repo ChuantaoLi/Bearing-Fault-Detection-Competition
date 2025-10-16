@@ -78,8 +78,7 @@ print(f"数据加载完成: {len(train_paths)}个训练样本, {len(test_paths)}
 # 单元格 4: 数据预处理
 # -----------------------------------------------------------------------------
 # --- 修改点：初始化 VMD+SSA 预处理器 ---
-# VMD参数: K是模态数, alpha是带宽约束。SSA参数: window_len是窗口长度, threshold是奇异值阈值
-params = {'K': 5, 'alpha': 2000, 'window_len': 16, 'threshold_mode1': 16, 'threshold_mode2': 16}
+params = {'K': 5, 'alpha': 2000, 'window_len': 16, 'threshold_mode1': 12, 'threshold_mode2': 14}
 preprocessor = VMD_SSA_Denoising(**params)
 
 X_train_processed, X_test_processed = [], []
