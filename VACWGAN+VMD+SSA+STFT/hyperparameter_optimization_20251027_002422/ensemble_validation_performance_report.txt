@@ -1,0 +1,32 @@
+--- 详细性能报告 ---
+
+--- 整体宏平均指标 ---
+总体准确率 (Accuracy): 0.513
+宏平均F1分数 (Macro-F1): 0.533
+宏平均精确率 (Macro-Precision): 0.535
+宏平均召回率 (Macro-Recall): 0.534
+
+--- 各类别详细指标 (Precision, Recall, F1-Score) ---
+               precision    recall  f1-score   support
+
+ inner_broken      0.347     0.273     0.306       150
+   inner_wear      0.505     0.433     0.466       120
+       normal      0.494     0.531     0.512       160
+outer_missing      0.507     0.594     0.547       180
+roller_broken      0.359     0.373     0.366       150
+  roller_wear      1.000     1.000     1.000       100
+
+     accuracy                          0.513       860
+    macro avg      0.535     0.534     0.533       860
+ weighted avg      0.508     0.513     0.508       860
+
+
+--- 混淆矩阵 ---
+类别索引: {'inner_broken': 0, 'inner_wear': 1, 'normal': 2, 'outer_missing': 3, 'roller_broken': 4, 'roller_wear': 5}
+矩阵 (行: 真实标签, 列: 预测标签):
+[[ 41  14  24  40  31   0]
+ [ 14  52  11  30  13   0]
+ [ 16   9  85  12  38   0]
+ [ 25  17  13 107  18   0]
+ [ 22  11  39  22  56   0]
+ [  0   0   0   0   0 100]]

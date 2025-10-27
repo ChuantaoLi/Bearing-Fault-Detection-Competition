@@ -1,0 +1,13 @@
+{
+    "lr": 3.877108020770023e-05,
+    "batch_size": 16,
+    "dropout": 0.48844724731296935,
+    "weight_decay": 4.828633474105562e-05,
+    "optimizer": "AdamW",
+    "max_grad_norm": 1.2051110848676112,
+    "use_focal": true,
+    "use_ls": false,
+    "use_center": false,
+    "focal_alpha": 0.37280522544816064,
+    "focal_gamma": 1.3564046794782432
+}
