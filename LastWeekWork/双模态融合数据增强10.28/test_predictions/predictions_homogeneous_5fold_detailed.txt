@@ -1,0 +1,1141 @@
+﻿测试集名称	最终预测	置信度	模型1预测	模型2预测	模型3预测	模型4预测	模型5预测	投票分布	平均概率
+test0001	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:55.2%; roller_broken:36.0%
+test0002	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0003	inner_wear	40.0%	inner_wear	inner_wear	normal	outer_missing	normal	inner_wear:2票; normal:2票; outer_missing:1票	inner_wear:35.6%; normal:34.3%; outer_missing:16.2%; roller_broken:10.6%
+test0004	roller_broken	60.0%	normal	roller_broken	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	normal:42.0%; roller_broken:41.5%
+test0005	normal	40.0%	normal	inner_broken	roller_broken	normal	roller_broken	normal:2票; roller_broken:2票; inner_broken:1票	inner_broken:25.2%; normal:31.0%; roller_broken:42.9%
+test0006	roller_broken	60.0%	inner_broken	normal	roller_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:1票; normal:1票	inner_broken:25.2%; normal:31.1%; roller_broken:38.2%
+test0007	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0008	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:67.2%; roller_broken:23.1%
+test0009	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	inner_broken:14.1%; normal:49.2%; roller_broken:31.6%
+test0010	roller_broken	60.0%	inner_broken	roller_broken	roller_broken	roller_broken	normal	roller_broken:3票; inner_broken:1票; normal:1票	inner_broken:14.6%; normal:36.3%; roller_broken:37.5%
+test0011	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:21.9%; outer_missing:58.8%
+test0012	roller_broken	60.0%	roller_broken	normal	roller_broken	roller_broken	normal	roller_broken:3票; normal:2票	normal:42.4%; roller_broken:46.2%
+test0013	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:21.9%; outer_missing:55.4%; roller_broken:13.8%
+test0014	normal	60.0%	normal	roller_broken	normal	normal	roller_broken	normal:3票; roller_broken:2票	normal:44.1%; roller_broken:43.6%
+test0015	normal	60.0%	inner_broken	normal	outer_missing	normal	normal	normal:3票; inner_broken:1票; outer_missing:1票	inner_broken:26.5%; normal:38.1%; outer_missing:10.8%; roller_broken:21.5%
+test0016	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0017	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:34.0%; outer_missing:63.2%
+test0018	roller_broken	60.0%	outer_missing	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; outer_missing:1票; inner_broken:1票	inner_broken:26.2%; normal:21.9%; outer_missing:15.7%; roller_broken:34.8%
+test0019	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0020	roller_broken	80.0%	roller_broken	roller_broken	normal	roller_broken	roller_broken	roller_broken:4票; normal:1票	normal:37.5%; roller_broken:45.7%
+test0021	roller_broken	80.0%	outer_missing	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; outer_missing:1票	inner_broken:12.2%; normal:26.7%; outer_missing:15.1%; roller_broken:44.9%
+test0022	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:54.9%; roller_broken:30.1%
+test0023	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:54.4%; roller_broken:38.7%
+test0024	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:19.9%; normal:23.0%; roller_broken:50.2%
+test0025	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	outer_missing	inner_broken	inner_broken:4票; outer_missing:1票	inner_broken:51.7%; outer_missing:34.0%
+test0026	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:22.4%; outer_missing:67.8%
+test0027	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:97.5%
+test0028	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0029	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:65.1%; roller_broken:25.2%
+test0030	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:51.1%; roller_broken:32.4%
+test0031	normal	40.0%	normal	inner_broken	inner_broken	normal	roller_broken	normal:2票; inner_broken:2票; roller_broken:1票	inner_broken:20.4%; normal:36.1%; roller_broken:29.8%
+test0032	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0033	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:41.9%; normal:17.2%; outer_missing:12.5%; roller_broken:23.3%
+test0034	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:58.8%; outer_missing:18.0%; roller_broken:16.6%
+test0035	normal	60.0%	roller_broken	inner_wear	normal	normal	normal	normal:3票; roller_broken:1票; inner_wear:1票	inner_wear:19.6%; normal:49.1%; roller_broken:24.3%
+test0036	normal	40.0%	normal	normal	roller_broken	inner_broken	roller_broken	normal:2票; roller_broken:2票; inner_broken:1票	inner_broken:26.4%; normal:28.0%; roller_broken:34.2%
+test0037	inner_broken	60.0%	inner_wear	inner_broken	inner_wear	inner_broken	inner_broken	inner_broken:3票; inner_wear:2票	inner_broken:38.2%; inner_wear:34.0%; roller_broken:20.8%
+test0038	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:32.1%; outer_missing:64.1%
+test0039	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:10.0%; inner_wear:16.8%; outer_missing:71.1%
+test0040	roller_broken	60.0%	normal	roller_broken	normal	roller_broken	roller_broken	roller_broken:3票; normal:2票	inner_broken:10.9%; normal:37.6%; roller_broken:42.3%
+test0041	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0042	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:58.8%; normal:10.2%; roller_broken:17.4%
+test0043	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0044	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0045	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0046	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0047	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0048	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0049	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:27.1%; normal:11.0%; outer_missing:49.6%; roller_broken:12.0%
+test0050	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0051	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:49.4%; outer_missing:26.5%; roller_broken:16.8%
+test0052	outer_missing	80.0%	outer_missing	inner_wear	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_wear:1票	inner_broken:14.8%; inner_wear:21.0%; normal:14.2%; outer_missing:39.0%; roller_broken:10.3%
+test0053	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:94.6%
+test0054	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:12.7%; inner_wear:13.2%; normal:15.3%; outer_missing:53.3%
+test0055	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0056	normal	60.0%	inner_wear	normal	normal	roller_broken	normal	normal:3票; inner_wear:1票; roller_broken:1票	inner_broken:11.9%; inner_wear:23.1%; normal:29.9%; roller_broken:24.8%
+test0057	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:26.3%; normal:15.5%; roller_broken:54.8%
+test0058	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0059	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:17.3%; outer_missing:80.1%
+test0060	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.0%
+test0061	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:29.3%; outer_missing:52.9%; roller_broken:11.7%
+test0062	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0063	roller_broken	60.0%	roller_broken	roller_broken	outer_missing	roller_broken	outer_missing	roller_broken:3票; outer_missing:2票	inner_broken:12.2%; normal:25.6%; outer_missing:24.0%; roller_broken:37.1%
+test0064	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:53.1%; roller_broken:34.1%
+test0065	outer_missing	40.0%	outer_missing	inner_broken	outer_missing	roller_broken	roller_broken	outer_missing:2票; roller_broken:2票; inner_broken:1票	inner_broken:25.7%; normal:11.9%; outer_missing:32.0%; roller_broken:29.2%
+test0066	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0067	inner_wear	40.0%	inner_wear	inner_wear	roller_broken	inner_broken	roller_broken	inner_wear:2票; roller_broken:2票; inner_broken:1票	inner_broken:27.2%; inner_wear:31.9%; normal:12.3%; roller_broken:22.8%
+test0068	normal	80.0%	normal	roller_broken	normal	normal	normal	normal:4票; roller_broken:1票	inner_broken:11.1%; normal:46.3%; roller_broken:39.3%
+test0069	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	outer_missing:91.2%
+test0070	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:19.3%; normal:31.1%; roller_broken:46.6%
+test0071	normal	40.0%	inner_broken	normal	outer_missing	normal	roller_broken	normal:2票; inner_broken:1票; outer_missing:1票; roller_broken:1票	inner_broken:21.2%; normal:31.6%; outer_missing:23.0%; roller_broken:23.3%
+test0072	roller_broken	60.0%	inner_broken	roller_broken	roller_broken	roller_broken	inner_broken	roller_broken:3票; inner_broken:2票	inner_broken:37.4%; normal:18.3%; roller_broken:36.0%
+test0073	normal	60.0%	roller_broken	normal	normal	roller_broken	normal	normal:3票; roller_broken:2票	normal:46.7%; roller_broken:41.6%
+test0074	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:11.9%; outer_missing:86.6%
+test0075	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:18.3%; normal:30.1%; roller_broken:41.1%
+test0076	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0077	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:26.9%; normal:15.6%; roller_broken:51.7%
+test0078	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:69.2%; outer_missing:17.4%
+test0079	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0080	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0081	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0082	roller_broken	40.0%	roller_broken	inner_broken	roller_broken	normal	normal	roller_broken:2票; normal:2票; inner_broken:1票	inner_broken:18.5%; normal:30.0%; outer_missing:13.7%; roller_broken:30.6%
+test0083	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0084	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:68.1%; roller_broken:24.3%
+test0085	inner_broken	60.0%	inner_broken	inner_broken	outer_missing	inner_broken	outer_missing	inner_broken:3票; outer_missing:2票	inner_broken:38.6%; normal:10.6%; outer_missing:37.1%; roller_broken:13.1%
+test0086	outer_missing	40.0%	roller_broken	outer_missing	outer_missing	normal	normal	outer_missing:2票; normal:2票; roller_broken:1票	inner_broken:17.2%; normal:25.8%; outer_missing:24.1%; roller_broken:22.6%
+test0087	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:11.5%; normal:50.7%; outer_missing:13.1%; roller_broken:23.7%
+test0088	roller_broken	80.0%	roller_broken	normal	roller_broken	roller_broken	roller_broken	roller_broken:4票; normal:1票	inner_broken:25.9%; normal:24.4%; roller_broken:46.3%
+test0089	roller_broken	40.0%	roller_broken	inner_wear	inner_broken	roller_broken	outer_missing	roller_broken:2票; inner_wear:1票; inner_broken:1票; outer_missing:1票	inner_broken:21.3%; inner_wear:16.9%; normal:13.3%; outer_missing:16.7%; roller_broken:31.5%
+test0090	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear:4票; roller_broken:1票	inner_wear:67.6%; roller_broken:11.5%
+test0091	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:64.1%; outer_missing:21.8%
+test0092	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:38.3%; normal:13.6%; outer_missing:12.6%; roller_broken:32.9%
+test0093	inner_broken	40.0%	inner_broken	inner_wear	roller_broken	inner_broken	roller_broken	inner_broken:2票; roller_broken:2票; inner_wear:1票	inner_broken:27.9%; inner_wear:10.5%; normal:22.6%; outer_missing:10.4%; roller_broken:27.8%
+test0094	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0095	roller_broken	40.0%	roller_broken	inner_wear	normal	roller_broken	normal	roller_broken:2票; normal:2票; inner_wear:1票	inner_broken:11.2%; inner_wear:18.4%; normal:41.3%; roller_broken:25.4%
+test0096	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:55.2%; outer_missing:18.4%; roller_broken:19.9%
+test0097	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0098	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	outer_missing	roller_broken	outer_missing:4票; roller_broken:1票	inner_broken:26.2%; outer_missing:40.0%; roller_broken:23.7%
+test0099	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:14.6%; outer_missing:84.2%
+test0100	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0101	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	normal:59.4%; roller_broken:37.9%
+test0102	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:27.5%; outer_missing:53.5%
+test0103	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:14.8%; outer_missing:77.9%
+test0104	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0105	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:32.6%; outer_missing:61.7%
+test0106	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:20.0%; outer_missing:74.9%
+test0107	roller_broken	60.0%	outer_missing	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; outer_missing:1票; inner_broken:1票	inner_broken:26.3%; inner_wear:10.5%; normal:15.3%; outer_missing:20.9%; roller_broken:26.0%
+test0108	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:95.9%
+test0109	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:74.8%; roller_broken:23.3%
+test0110	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	normal:57.4%; roller_broken:39.9%
+test0111	normal	60.0%	normal	normal	outer_missing	normal	outer_missing	normal:3票; outer_missing:2票	inner_broken:18.9%; normal:32.2%; outer_missing:29.5%; roller_broken:18.0%
+test0112	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:13.1%; outer_missing:76.9%
+test0113	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:38.7%; normal:23.6%; roller_broken:23.1%
+test0114	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:48.6%; outer_missing:12.5%; roller_broken:27.0%
+test0115	inner_broken	80.0%	outer_missing	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:4票; outer_missing:1票	inner_broken:50.3%; outer_missing:36.8%
+test0116	normal	60.0%	roller_broken	normal	normal	roller_broken	normal	normal:3票; roller_broken:2票	normal:49.4%; roller_broken:41.8%
+test0117	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:11.9%; normal:52.9%; roller_broken:30.6%
+test0118	roller_broken	80.0%	roller_broken	roller_broken	normal	roller_broken	roller_broken	roller_broken:4票; normal:1票	inner_broken:13.9%; normal:33.6%; roller_broken:44.3%
+test0119	inner_broken	40.0%	inner_broken	inner_wear	inner_broken	roller_broken	roller_broken	inner_broken:2票; roller_broken:2票; inner_wear:1票	inner_broken:17.4%; inner_wear:20.3%; normal:23.7%; roller_broken:29.8%
+test0120	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:66.4%; outer_missing:25.6%
+test0121	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:85.7%
+test0122	inner_broken	60.0%	inner_broken	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken:3票; roller_broken:2票	inner_broken:40.6%; outer_missing:18.8%; roller_broken:30.8%
+test0123	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.9%; outer_missing:58.8%
+test0124	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:49.7%; outer_missing:11.9%; roller_broken:28.0%
+test0125	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0126	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0127	normal	80.0%	normal	normal	inner_broken	normal	normal	normal:4票; inner_broken:1票	inner_broken:16.7%; normal:45.5%; roller_broken:29.1%
+test0128	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:63.4%; outer_missing:30.4%
+test0129	roller_broken	60.0%	inner_wear	roller_broken	roller_broken	inner_broken	roller_broken	roller_broken:3票; inner_wear:1票; inner_broken:1票	inner_broken:23.1%; inner_wear:15.1%; normal:15.8%; outer_missing:11.7%; roller_broken:34.0%
+test0130	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0131	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0132	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0133	roller_broken	60.0%	roller_broken	roller_broken	normal	roller_broken	normal	roller_broken:3票; normal:2票	normal:47.2%; roller_broken:48.2%
+test0134	roller_broken	60.0%	roller_broken	roller_broken	normal	normal	roller_broken	roller_broken:3票; normal:2票	inner_broken:14.0%; normal:31.7%; outer_missing:15.3%; roller_broken:35.1%
+test0135	normal	80.0%	normal	normal	normal	roller_broken	normal	normal:4票; roller_broken:1票	inner_broken:10.2%; normal:45.3%; roller_broken:35.2%
+test0136	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0137	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0138	inner_broken	60.0%	inner_broken	outer_missing	inner_broken	outer_missing	inner_broken	inner_broken:3票; outer_missing:2票	inner_broken:36.0%; normal:10.0%; outer_missing:37.2%; roller_broken:15.2%
+test0139	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0140	roller_broken	60.0%	roller_broken	inner_wear	roller_broken	normal	roller_broken	roller_broken:3票; inner_wear:1票; normal:1票	inner_wear:12.3%; normal:27.2%; roller_broken:49.0%
+test0141	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	outer_missing	inner_broken	inner_broken:4票; outer_missing:1票	inner_broken:58.2%; outer_missing:29.1%
+test0142	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0143	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:98.6%
+test0144	inner_broken	60.0%	inner_broken	normal	inner_broken	inner_broken	normal	inner_broken:3票; normal:2票	inner_broken:30.2%; normal:26.3%; outer_missing:19.7%; roller_broken:21.6%
+test0145	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0146	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	outer_missing:88.4%
+test0147	roller_broken	80.0%	roller_broken	inner_wear	roller_broken	roller_broken	roller_broken	roller_broken:4票; inner_wear:1票	inner_wear:14.2%; normal:30.2%; roller_broken:43.4%
+test0148	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	normal	inner_broken	inner_broken:4票; normal:1票	inner_broken:37.4%; normal:20.7%; outer_missing:11.0%; roller_broken:24.3%
+test0149	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0150	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:54.0%; outer_missing:16.5%; roller_broken:20.0%
+test0151	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:51.2%; outer_missing:14.3%; roller_broken:20.7%
+test0152	roller_broken	60.0%	roller_broken	normal	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	inner_broken:19.2%; normal:36.3%; roller_broken:39.1%
+test0153	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0154	outer_missing	60.0%	outer_missing	outer_missing	inner_broken	roller_broken	outer_missing	outer_missing:3票; inner_broken:1票; roller_broken:1票	inner_broken:32.3%; normal:10.7%; outer_missing:33.6%; roller_broken:20.7%
+test0155	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:62.2%; roller_broken:27.3%
+test0156	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:18.1%; normal:12.0%; outer_missing:57.5%; roller_broken:11.9%
+test0157	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	normal	roller_broken	roller_broken:4票; normal:1票	normal:39.9%; roller_broken:50.3%
+test0158	inner_wear	60.0%	inner_wear	inner_wear	outer_missing	inner_wear	outer_missing	inner_wear:3票; outer_missing:2票	inner_broken:13.2%; inner_wear:25.7%; normal:15.1%; outer_missing:33.8%; roller_broken:10.8%
+test0159	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0160	outer_missing	60.0%	inner_broken	outer_missing	outer_missing	outer_missing	inner_broken	outer_missing:3票; inner_broken:2票	inner_broken:38.9%; outer_missing:43.6%
+test0161	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:15.2%; outer_missing:80.5%
+test0162	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:55.1%; outer_missing:29.3%
+test0163	normal	80.0%	normal	normal	inner_broken	normal	normal	normal:4票; inner_broken:1票	inner_broken:15.7%; normal:46.0%; outer_missing:12.4%; roller_broken:25.4%
+test0164	normal	60.0%	inner_wear	inner_wear	normal	normal	normal	normal:3票; inner_wear:2票	inner_wear:41.6%; normal:30.7%; roller_broken:13.1%
+test0165	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:11.5%; normal:43.1%; outer_missing:11.2%; roller_broken:27.4%
+test0166	outer_missing	60.0%	normal	outer_missing	outer_missing	outer_missing	normal	outer_missing:3票; normal:2票	inner_broken:26.2%; normal:19.8%; outer_missing:31.6%; roller_broken:11.1%
+test0167	inner_broken	40.0%	inner_broken	outer_missing	inner_broken	normal	roller_broken	inner_broken:2票; outer_missing:1票; normal:1票; roller_broken:1票	inner_broken:29.2%; normal:25.0%; outer_missing:19.5%; roller_broken:22.5%
+test0168	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:16.6%; outer_missing:82.1%
+test0169	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:17.9%; normal:11.4%; outer_missing:54.5%
+test0170	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:60.2%; outer_missing:35.7%
+test0171	roller_broken	80.0%	roller_broken	roller_broken	normal	roller_broken	roller_broken	roller_broken:4票; normal:1票	normal:35.4%; roller_broken:52.5%
+test0172	outer_missing	60.0%	outer_missing	outer_missing	inner_broken	outer_missing	inner_broken	outer_missing:3票; inner_broken:2票	inner_broken:37.3%; outer_missing:46.2%
+test0173	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:17.7%; normal:48.6%; roller_broken:30.0%
+test0174	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:42.5%; inner_wear:13.3%; roller_broken:32.0%
+test0175	normal	60.0%	normal	roller_broken	normal	normal	roller_broken	normal:3票; roller_broken:2票	inner_broken:10.3%; normal:41.6%; roller_broken:39.9%
+test0176	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	normal	roller_broken	roller_broken:4票; normal:1票	inner_broken:18.0%; normal:30.1%; roller_broken:39.6%
+test0177	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0178	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	normal	inner_broken	inner_broken:4票; normal:1票	inner_broken:35.2%; normal:21.9%; outer_missing:20.9%; roller_broken:16.8%
+test0179	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0180	outer_missing	80.0%	outer_missing	inner_broken	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:33.1%; inner_wear:10.3%; outer_missing:43.1%
+test0181	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.7%
+test0182	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	outer_missing	inner_broken	outer_missing:4票; inner_broken:1票	inner_broken:39.3%; outer_missing:55.4%
+test0183	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0184	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0185	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	outer_missing	inner_broken	inner_broken:4票; outer_missing:1票	inner_broken:52.7%; outer_missing:36.6%
+test0186	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0187	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:62.0%; roller_broken:32.8%
+test0188	normal	60.0%	normal	normal	roller_broken	normal	roller_broken	normal:3票; roller_broken:2票	inner_broken:17.1%; normal:37.9%; roller_broken:39.7%
+test0189	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:58.6%; roller_broken:25.6%
+test0190	roller_broken	60.0%	inner_broken	roller_broken	normal	roller_broken	roller_broken	roller_broken:3票; inner_broken:1票; normal:1票	inner_broken:21.9%; normal:28.7%; outer_missing:12.3%; roller_broken:34.0%
+test0191	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0192	inner_wear	60.0%	inner_wear	inner_wear	inner_broken	roller_broken	inner_wear	inner_wear:3票; inner_broken:1票; roller_broken:1票	inner_broken:16.0%; inner_wear:34.4%; normal:13.3%; outer_missing:17.4%; roller_broken:17.9%
+test0193	outer_missing	60.0%	outer_missing	outer_missing	outer_missing	normal	normal	outer_missing:3票; normal:2票	inner_broken:12.0%; normal:37.3%; outer_missing:30.6%; roller_broken:18.1%
+test0194	normal	80.0%	normal	normal	normal	roller_broken	normal	normal:4票; roller_broken:1票	normal:53.6%; outer_missing:10.8%; roller_broken:31.1%
+test0195	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0196	inner_broken	60.0%	inner_broken	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken:3票; roller_broken:2票	inner_broken:34.3%; normal:16.1%; outer_missing:13.0%; roller_broken:31.2%
+test0197	inner_broken	40.0%	inner_broken	roller_broken	inner_broken	normal	outer_missing	inner_broken:2票; roller_broken:1票; normal:1票; outer_missing:1票	inner_broken:29.7%; normal:17.6%; outer_missing:26.1%; roller_broken:24.0%
+test0198	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	inner_wear	outer_missing	outer_missing:4票; inner_wear:1票	inner_broken:11.0%; inner_wear:18.5%; normal:13.3%; outer_missing:42.1%; roller_broken:13.2%
+test0199	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0200	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:86.1%
+test0201	roller_broken	80.0%	roller_broken	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:39.1%; normal:13.8%; roller_broken:41.8%
+test0202	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:36.4%; normal:18.1%; roller_broken:31.7%
+test0203	normal	60.0%	normal	normal	roller_broken	inner_broken	normal	normal:3票; roller_broken:1票; inner_broken:1票	inner_broken:25.2%; normal:39.6%; roller_broken:26.1%
+test0204	inner_broken	40.0%	outer_missing	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken:2票; roller_broken:2票; outer_missing:1票	inner_broken:37.8%; normal:13.3%; outer_missing:24.8%; roller_broken:23.0%
+test0205	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0206	outer_missing	80.0%	outer_missing	inner_broken	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:26.3%; outer_missing:58.5%
+test0207	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0208	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0209	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0210	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0211	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:82.0%; roller_broken:11.8%
+test0212	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:85.7%
+test0213	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken:4票; roller_broken:1票	inner_broken:48.6%; outer_missing:13.5%; roller_broken:26.2%
+test0214	normal	60.0%	normal	normal	roller_broken	normal	roller_broken	normal:3票; roller_broken:2票	normal:43.1%; outer_missing:12.9%; roller_broken:35.5%
+test0215	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	inner_broken:16.3%; normal:37.8%; roller_broken:36.0%
+test0216	normal	80.0%	inner_broken	normal	normal	normal	normal	normal:4票; inner_broken:1票	inner_broken:22.0%; normal:39.9%; roller_broken:28.8%
+test0217	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0218	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:66.6%; roller_broken:23.3%
+test0219	inner_broken	60.0%	inner_broken	inner_broken	roller_broken	normal	inner_broken	inner_broken:3票; roller_broken:1票; normal:1票	inner_broken:31.5%; normal:28.5%; roller_broken:35.0%
+test0220	inner_broken	60.0%	inner_broken	inner_broken	inner_broken	normal	roller_broken	inner_broken:3票; normal:1票; roller_broken:1票	inner_broken:47.1%; normal:22.1%; roller_broken:18.1%
+test0221	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:49.4%; normal:10.0%; outer_missing:37.8%
+test0222	inner_broken	60.0%	inner_broken	outer_missing	inner_broken	inner_broken	normal	inner_broken:3票; outer_missing:1票; normal:1票	inner_broken:37.8%; normal:23.4%; outer_missing:23.2%; roller_broken:14.5%
+test0223	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:90.1%
+test0224	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:52.4%; outer_missing:13.9%; roller_broken:16.7%
+test0225	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0226	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:34.1%; outer_missing:61.0%
+test0227	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:69.7%; roller_broken:10.4%
+test0228	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	roller_broken	outer_missing	outer_missing:4票; roller_broken:1票	inner_broken:18.2%; inner_wear:11.2%; normal:15.4%; outer_missing:31.9%; roller_broken:22.7%
+test0229	roller_broken	40.0%	roller_broken	inner_broken	outer_missing	normal	roller_broken	roller_broken:2票; inner_broken:1票; outer_missing:1票; normal:1票	inner_broken:19.5%; normal:27.5%; outer_missing:15.2%; roller_broken:33.4%
+test0230	outer_missing	60.0%	inner_broken	outer_missing	inner_broken	outer_missing	outer_missing	outer_missing:3票; inner_broken:2票	inner_broken:48.8%; outer_missing:47.3%
+test0231	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	normal:62.4%; roller_broken:34.4%
+test0232	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:55.6%; outer_missing:28.0%; roller_broken:10.8%
+test0233	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:57.9%; inner_wear:17.1%; outer_missing:14.7%
+test0234	inner_wear	60.0%	inner_wear	inner_wear	inner_wear	roller_broken	roller_broken	inner_wear:3票; roller_broken:2票	inner_wear:45.8%; normal:15.9%; roller_broken:30.5%
+test0235	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.8%
+test0236	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:98.0%
+test0237	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:91.7%
+test0238	outer_missing	60.0%	outer_missing	inner_broken	outer_missing	outer_missing	inner_broken	outer_missing:3票; inner_broken:2票	inner_broken:46.8%; outer_missing:45.3%
+test0239	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:96.3%
+test0240	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:29.8%; outer_missing:67.3%
+test0241	outer_missing	80.0%	outer_missing	outer_missing	normal	outer_missing	outer_missing	outer_missing:4票; normal:1票	inner_broken:14.9%; normal:24.1%; outer_missing:44.9%; roller_broken:11.4%
+test0242	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:97.5%
+test0243	normal	80.0%	normal	normal	inner_broken	normal	normal	normal:4票; inner_broken:1票	inner_broken:17.8%; normal:42.9%; roller_broken:34.7%
+test0244	roller_broken	80.0%	inner_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:24.8%; normal:25.8%; roller_broken:45.5%
+test0245	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:24.1%; outer_missing:73.3%
+test0246	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:93.8%
+test0247	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	outer_missing	inner_broken	outer_missing:4票; inner_broken:1票	inner_broken:34.2%; outer_missing:59.4%
+test0248	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:85.9%
+test0249	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:88.8%
+test0250	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear	inner_wear:4票; roller_broken:1票	inner_wear:51.5%; normal:17.9%; roller_broken:19.0%
+test0251	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0252	outer_missing	60.0%	inner_broken	inner_wear	outer_missing	outer_missing	outer_missing	outer_missing:3票; inner_broken:1票; inner_wear:1票	inner_broken:36.4%; inner_wear:18.5%; outer_missing:36.9%
+test0253	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0254	inner_wear	60.0%	outer_missing	inner_wear	inner_broken	inner_wear	inner_wear	inner_wear:3票; outer_missing:1票; inner_broken:1票	inner_broken:22.8%; inner_wear:33.2%; outer_missing:31.3%
+test0255	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:27.8%; outer_missing:71.6%
+test0256	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:39.4%; normal:13.3%; outer_missing:19.5%; roller_broken:26.3%
+test0257	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0258	outer_missing	60.0%	outer_missing	outer_missing	inner_wear	inner_broken	outer_missing	outer_missing:3票; inner_wear:1票; inner_broken:1票	inner_broken:21.7%; inner_wear:21.7%; outer_missing:35.6%
+test0259	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:20.3%; normal:42.6%; outer_missing:13.0%; roller_broken:21.7%
+test0260	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:82.0%
+test0261	roller_broken	80.0%	inner_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:24.7%; normal:17.1%; outer_missing:18.7%; roller_broken:35.9%
+test0262	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:13.2%; normal:19.2%; outer_missing:54.5%; roller_broken:12.6%
+test0263	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	normal:47.2%; roller_broken:36.4%
+test0264	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0265	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0266	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:18.8%; inner_wear:13.4%; outer_missing:46.5%; roller_broken:10.9%
+test0267	outer_missing	60.0%	outer_missing	inner_broken	inner_broken	outer_missing	outer_missing	outer_missing:3票; inner_broken:2票	inner_broken:43.8%; outer_missing:51.3%
+test0268	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:20.0%; inner_wear:17.2%; outer_missing:56.7%
+test0269	outer_missing	80.0%	outer_missing	inner_wear	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_wear:1票	inner_broken:19.8%; inner_wear:14.0%; outer_missing:53.0%
+test0270	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	inner_broken:11.0%; normal:46.8%; roller_broken:34.1%
+test0271	inner_broken	60.0%	roller_broken	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken:3票; roller_broken:2票	inner_broken:30.8%; inner_wear:10.7%; outer_missing:15.0%; roller_broken:35.4%
+test0272	normal	60.0%	roller_broken	inner_wear	normal	normal	normal	normal:3票; roller_broken:1票; inner_wear:1票	inner_wear:11.4%; normal:42.8%; roller_broken:37.3%
+test0273	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	roller_broken	normal	roller_broken:4票; normal:1票	normal:36.6%; roller_broken:45.6%
+test0274	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:99.3%
+test0275	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:51.5%; outer_missing:36.4%
+test0276	normal	60.0%	normal	inner_wear	normal	normal	inner_broken	normal:3票; inner_wear:1票; inner_broken:1票	inner_broken:26.4%; inner_wear:26.0%; normal:25.3%; roller_broken:19.0%
+test0277	outer_missing	60.0%	outer_missing	outer_missing	inner_broken	outer_missing	inner_wear	outer_missing:3票; inner_broken:1票; inner_wear:1票	inner_broken:23.1%; inner_wear:25.1%; outer_missing:29.7%; roller_broken:13.0%
+test0278	inner_broken	60.0%	roller_broken	inner_broken	roller_broken	inner_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:44.5%; normal:10.1%; roller_broken:39.3%
+test0279	roller_broken	60.0%	roller_broken	roller_broken	roller_broken	normal	inner_broken	roller_broken:3票; normal:1票; inner_broken:1票	inner_broken:25.7%; normal:25.8%; outer_missing:14.8%; roller_broken:30.7%
+test0280	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0281	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:20.3%; normal:18.7%; roller_broken:45.8%
+test0282	normal	80.0%	normal	roller_broken	normal	normal	normal	normal:4票; roller_broken:1票	normal:42.5%; roller_broken:39.9%
+test0283	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:18.0%; outer_missing:68.4%
+test0284	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:33.1%; outer_missing:47.2%; roller_broken:11.6%
+test0285	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.1%; normal:15.2%; outer_missing:44.6%; roller_broken:13.9%
+test0286	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0287	normal	60.0%	normal	roller_broken	normal	normal	roller_broken	normal:3票; roller_broken:2票	inner_broken:18.4%; normal:33.3%; outer_missing:11.9%; roller_broken:30.5%
+test0288	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:73.2%; outer_missing:11.4%
+test0289	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:93.4%
+test0290	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0291	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0292	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0293	roller_broken	80.0%	inner_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:27.7%; normal:15.1%; roller_broken:52.7%
+test0294	inner_broken	40.0%	inner_broken	normal	inner_broken	normal	roller_broken	inner_broken:2票; normal:2票; roller_broken:1票	inner_broken:29.6%; normal:23.8%; outer_missing:20.9%; roller_broken:25.3%
+test0295	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:48.6%; outer_missing:10.0%; roller_broken:29.9%
+test0296	roller_broken	60.0%	roller_broken	normal	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	inner_broken:12.0%; normal:39.5%; roller_broken:42.8%
+test0297	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:60.0%; roller_broken:24.3%
+test0298	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0299	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:10.0%; inner_wear:73.0%
+test0300	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	inner_broken:23.3%; normal:39.3%; roller_broken:27.3%
+test0301	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0302	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:44.2%; outer_missing:16.5%; roller_broken:20.9%
+test0303	inner_broken	60.0%	inner_broken	outer_missing	outer_missing	inner_broken	inner_broken	inner_broken:3票; outer_missing:2票	inner_broken:50.3%; outer_missing:43.5%
+test0304	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0305	normal	60.0%	normal	normal	roller_broken	normal	roller_broken	normal:3票; roller_broken:2票	normal:50.3%; roller_broken:40.8%
+test0306	roller_broken	60.0%	roller_broken	inner_wear	inner_wear	roller_broken	roller_broken	roller_broken:3票; inner_wear:2票	inner_wear:33.3%; normal:14.5%; outer_missing:12.3%; roller_broken:29.6%
+test0307	roller_broken	60.0%	normal	inner_wear	roller_broken	roller_broken	roller_broken	roller_broken:3票; normal:1票; inner_wear:1票	inner_wear:19.8%; normal:32.1%; roller_broken:36.9%
+test0308	outer_missing	60.0%	outer_missing	inner_broken	outer_missing	outer_missing	inner_broken	outer_missing:3票; inner_broken:2票	inner_broken:38.8%; outer_missing:36.6%; roller_broken:13.5%
+test0309	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:17.7%; outer_missing:68.0%
+test0310	inner_wear	60.0%	inner_wear	normal	inner_wear	inner_wear	normal	inner_wear:3票; normal:2票	inner_wear:46.4%; normal:28.2%; roller_broken:15.6%
+test0311	inner_broken	60.0%	inner_broken	normal	inner_broken	roller_broken	inner_broken	inner_broken:3票; normal:1票; roller_broken:1票	inner_broken:33.8%; normal:23.0%; roller_broken:35.4%
+test0312	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:29.9%; outer_missing:64.6%
+test0313	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:74.4%; outer_missing:13.7%
+test0314	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:46.6%; roller_broken:29.0%
+test0315	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:84.9%
+test0316	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0317	roller_broken	80.0%	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:21.1%; normal:21.3%; roller_broken:54.9%
+test0318	outer_missing	60.0%	outer_missing	normal	outer_missing	normal	outer_missing	outer_missing:3票; normal:2票	inner_broken:12.9%; normal:32.5%; outer_missing:33.4%; roller_broken:20.9%
+test0319	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:35.0%; outer_missing:60.3%
+test0320	roller_broken	60.0%	roller_broken	normal	normal	roller_broken	roller_broken	roller_broken:3票; normal:2票	inner_broken:16.5%; normal:36.2%; roller_broken:38.6%
+test0321	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:45.3%; outer_missing:26.1%; roller_broken:19.9%
+test0322	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0323	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:96.3%
+test0324	inner_broken	40.0%	inner_broken	normal	roller_broken	outer_missing	inner_broken	inner_broken:2票; normal:1票; roller_broken:1票; outer_missing:1票	inner_broken:35.5%; normal:23.5%; outer_missing:19.0%; roller_broken:19.0%
+test0325	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:26.8%; normal:18.8%; outer_missing:11.3%; roller_broken:42.5%
+test0326	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:62.9%; roller_broken:28.2%
+test0327	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:18.9%; outer_missing:71.2%
+test0328	normal	80.0%	normal	normal	roller_broken	normal	normal	normal:4票; roller_broken:1票	normal:54.0%; roller_broken:33.8%
+test0329	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0330	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:11.9%; normal:33.8%; roller_broken:47.2%
+test0331	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:16.4%; inner_wear:18.0%; normal:17.3%; roller_broken:45.3%
+test0332	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:22.9%; outer_missing:75.6%
+test0333	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0334	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	roller_broken	normal	roller_broken:4票; normal:1票	normal:33.8%; roller_broken:53.6%
+test0335	normal	80.0%	inner_broken	normal	normal	normal	normal	normal:4票; inner_broken:1票	inner_broken:15.6%; normal:46.6%; outer_missing:19.4%; roller_broken:17.3%
+test0336	roller_broken	60.0%	inner_wear	roller_broken	roller_broken	roller_broken	normal	roller_broken:3票; inner_wear:1票; normal:1票	inner_wear:18.3%; normal:30.4%; roller_broken:38.5%
+test0337	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0338	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0339	normal	40.0%	outer_missing	inner_broken	normal	normal	roller_broken	normal:2票; outer_missing:1票; inner_broken:1票; roller_broken:1票	inner_broken:17.1%; normal:28.1%; outer_missing:21.0%; roller_broken:27.9%
+test0340	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0341	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:95.8%
+test0342	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0343	normal	40.0%	inner_broken	normal	outer_missing	outer_missing	normal	normal:2票; outer_missing:2票; inner_broken:1票	inner_broken:25.4%; normal:27.1%; outer_missing:32.5%; roller_broken:13.5%
+test0344	roller_broken	60.0%	inner_broken	inner_broken	roller_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:2票	inner_broken:33.4%; normal:16.0%; roller_broken:43.1%
+test0345	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:33.6%; outer_missing:54.2%
+test0346	inner_broken	60.0%	inner_broken	normal	outer_missing	inner_broken	inner_broken	inner_broken:3票; normal:1票; outer_missing:1票	inner_broken:52.4%; normal:23.8%; outer_missing:17.2%
+test0347	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:96.7%
+test0348	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:33.6%; outer_missing:55.8%
+test0349	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0350	inner_wear	80.0%	inner_wear	inner_wear	normal	inner_wear	inner_wear	inner_wear:4票; normal:1票	inner_wear:72.3%
+test0351	normal	40.0%	roller_broken	inner_wear	outer_missing	normal	normal	normal:2票; roller_broken:1票; inner_wear:1票; outer_missing:1票	inner_wear:15.1%; normal:34.7%; outer_missing:13.7%; roller_broken:25.5%
+test0352	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0353	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0354	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	normal	outer_missing	outer_missing:4票; normal:1票	inner_broken:15.8%; normal:11.0%; outer_missing:59.1%; roller_broken:10.9%
+test0355	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0356	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	normal	roller_broken	roller_broken:4票; normal:1票	normal:39.1%; roller_broken:44.8%
+test0357	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:15.5%; normal:32.0%; roller_broken:44.4%
+test0358	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0359	inner_broken	60.0%	inner_broken	outer_missing	inner_broken	normal	inner_broken	inner_broken:3票; outer_missing:1票; normal:1票	inner_broken:41.0%; normal:15.4%; outer_missing:24.8%; roller_broken:15.2%
+test0360	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear	inner_wear:4票; roller_broken:1票	inner_broken:14.3%; inner_wear:67.6%
+test0361	inner_broken	60.0%	inner_broken	inner_wear	inner_broken	roller_broken	inner_broken	inner_broken:3票; inner_wear:1票; roller_broken:1票	inner_broken:42.5%; inner_wear:17.8%; outer_missing:14.5%; roller_broken:15.1%
+test0362	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0363	outer_missing	60.0%	inner_wear	outer_missing	outer_missing	inner_wear	outer_missing	outer_missing:3票; inner_wear:2票	inner_broken:25.7%; inner_wear:28.1%; outer_missing:41.9%
+test0364	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:11.5%; normal:18.7%; roller_broken:63.4%
+test0365	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken:4票; roller_broken:1票	inner_broken:44.8%; normal:12.5%; roller_broken:33.4%
+test0366	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:22.0%; normal:16.1%; roller_broken:56.5%
+test0367	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	normal:43.7%; outer_missing:13.1%; roller_broken:34.8%
+test0368	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0369	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:21.2%; inner_wear:59.9%; roller_broken:13.5%
+test0370	inner_broken	60.0%	outer_missing	normal	inner_broken	inner_broken	inner_broken	inner_broken:3票; outer_missing:1票; normal:1票	inner_broken:42.3%; normal:13.8%; outer_missing:29.0%; roller_broken:14.3%
+test0371	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	outer_missing	roller_broken	outer_missing:4票; roller_broken:1票	inner_broken:24.4%; normal:12.4%; outer_missing:48.7%; roller_broken:11.7%
+test0372	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:97.3%
+test0373	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0374	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:14.6%; outer_missing:67.5%
+test0375	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0376	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:46.6%; normal:15.7%; roller_broken:25.4%
+test0377	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:27.5%; outer_missing:68.3%
+test0378	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0379	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0380	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0381	normal	60.0%	inner_wear	inner_wear	normal	normal	normal	normal:3票; inner_wear:2票	inner_wear:21.3%; normal:36.4%; outer_missing:14.6%; roller_broken:21.8%
+test0382	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:20.6%; outer_missing:71.2%
+test0383	roller_broken	80.0%	roller_broken	roller_broken	normal	roller_broken	roller_broken	roller_broken:4票; normal:1票	inner_broken:12.6%; normal:39.3%; roller_broken:43.2%
+test0384	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	normal	roller_broken	roller_broken:4票; normal:1票	inner_broken:16.1%; normal:26.2%; outer_missing:16.0%; roller_broken:39.5%
+test0385	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0386	normal	80.0%	normal	normal	roller_broken	normal	normal	normal:4票; roller_broken:1票	normal:51.7%; roller_broken:39.7%
+test0387	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	normal:53.4%; roller_broken:36.4%
+test0388	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:18.0%; outer_missing:79.8%
+test0389	outer_missing	60.0%	outer_missing	outer_missing	inner_broken	outer_missing	inner_broken	outer_missing:3票; inner_broken:2票	inner_broken:44.9%; outer_missing:47.3%
+test0390	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0391	normal	60.0%	inner_broken	normal	inner_broken	normal	normal	normal:3票; inner_broken:2票	inner_broken:17.5%; normal:35.0%; outer_missing:15.5%; roller_broken:30.0%
+test0392	roller_broken	60.0%	roller_broken	inner_wear	roller_broken	inner_wear	roller_broken	roller_broken:3票; inner_wear:2票	inner_wear:40.9%; normal:11.2%; roller_broken:39.9%
+test0393	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:47.8%; outer_missing:14.4%; roller_broken:20.5%
+test0394	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0395	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0396	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:17.8%; outer_missing:78.3%
+test0397	inner_wear	60.0%	inner_wear	inner_wear	inner_wear	roller_broken	normal	inner_wear:3票; roller_broken:1票; normal:1票	inner_wear:42.7%; normal:17.2%; roller_broken:31.1%
+test0398	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0399	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0400	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0401	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear	inner_wear:4票; roller_broken:1票	inner_broken:15.6%; inner_wear:50.3%; outer_missing:11.5%; roller_broken:13.6%
+test0402	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.5%; outer_missing:73.2%
+test0403	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:24.1%; outer_missing:71.7%
+test0404	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	normal:36.8%; roller_broken:53.0%
+test0405	roller_broken	60.0%	outer_missing	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; outer_missing:1票; inner_broken:1票	inner_broken:25.8%; normal:23.2%; outer_missing:17.7%; roller_broken:31.1%
+test0406	outer_missing	60.0%	outer_missing	outer_missing	outer_missing	normal	normal	outer_missing:3票; normal:2票	inner_broken:15.0%; normal:27.5%; outer_missing:36.0%; roller_broken:18.7%
+test0407	inner_wear	80.0%	roller_broken	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:4票; roller_broken:1票	inner_broken:13.1%; inner_wear:37.4%; normal:18.7%; roller_broken:21.0%
+test0408	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0409	roller_broken	60.0%	normal	roller_broken	normal	roller_broken	roller_broken	roller_broken:3票; normal:2票	normal:43.7%; roller_broken:42.2%
+test0410	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	inner_broken	inner_wear	inner_wear:4票; inner_broken:1票	inner_broken:14.2%; inner_wear:60.5%; outer_missing:17.6%
+test0411	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0412	roller_broken	60.0%	roller_broken	normal	inner_broken	roller_broken	roller_broken	roller_broken:3票; normal:1票; inner_broken:1票	inner_broken:15.5%; inner_wear:11.1%; normal:23.1%; outer_missing:18.4%; roller_broken:31.4%
+test0413	inner_broken	60.0%	inner_wear	inner_wear	inner_broken	inner_broken	inner_broken	inner_broken:3票; inner_wear:2票	inner_broken:29.7%; inner_wear:20.9%; normal:12.6%; outer_missing:19.0%; roller_broken:16.3%
+test0414	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0415	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:54.2%; inner_wear:10.3%; normal:10.7%; outer_missing:10.3%; roller_broken:13.3%
+test0416	inner_broken	60.0%	normal	inner_broken	inner_broken	normal	inner_broken	inner_broken:3票; normal:2票	inner_broken:36.7%; normal:21.0%; outer_missing:18.1%; roller_broken:23.7%
+test0417	roller_broken	60.0%	roller_broken	inner_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:2票	inner_broken:31.0%; normal:17.8%; outer_missing:13.3%; roller_broken:36.3%
+test0418	normal	80.0%	inner_broken	normal	normal	normal	normal	normal:4票; inner_broken:1票	inner_broken:25.5%; normal:36.6%; outer_missing:10.4%; roller_broken:25.3%
+test0419	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	outer_missing:77.1%
+test0420	normal	60.0%	normal	normal	roller_broken	roller_broken	normal	normal:3票; roller_broken:2票	normal:41.4%; outer_missing:10.0%; roller_broken:34.7%
+test0421	roller_broken	60.0%	roller_broken	roller_broken	normal	roller_broken	normal	roller_broken:3票; normal:2票	inner_broken:12.2%; normal:35.6%; roller_broken:48.5%
+test0422	inner_broken	80.0%	inner_broken	outer_missing	inner_broken	inner_broken	inner_broken	inner_broken:4票; outer_missing:1票	inner_broken:49.0%; outer_missing:27.9%; roller_broken:16.6%
+test0423	roller_broken	60.0%	normal	roller_broken	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	normal:39.5%; roller_broken:51.4%
+test0424	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:53.3%; roller_broken:28.1%
+test0425	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:57.6%; roller_broken:35.1%
+test0426	normal	40.0%	inner_broken	inner_wear	normal	normal	roller_broken	normal:2票; inner_broken:1票; inner_wear:1票; roller_broken:1票	inner_broken:27.0%; normal:22.5%; outer_missing:18.7%; roller_broken:21.8%
+test0427	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0428	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0429	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:56.2%; roller_broken:37.2%
+test0430	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0431	roller_broken	40.0%	outer_missing	roller_broken	inner_broken	roller_broken	inner_broken	roller_broken:2票; inner_broken:2票; outer_missing:1票	inner_broken:31.6%; normal:13.3%; outer_missing:19.0%; roller_broken:35.7%
+test0432	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:60.5%; outer_missing:19.9%
+test0433	outer_missing	60.0%	inner_wear	inner_wear	outer_missing	outer_missing	outer_missing	outer_missing:3票; inner_wear:2票	inner_broken:22.9%; inner_wear:25.1%; normal:11.4%; outer_missing:25.6%; roller_broken:13.6%
+test0434	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:15.1%; normal:38.4%; outer_missing:18.4%; roller_broken:17.6%
+test0435	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	inner_broken:10.8%; normal:47.1%; roller_broken:33.3%
+test0436	outer_missing	40.0%	outer_missing	roller_broken	inner_broken	roller_broken	outer_missing	outer_missing:2票; roller_broken:2票; inner_broken:1票	inner_broken:32.6%; outer_missing:37.5%; roller_broken:18.5%
+test0437	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0438	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0439	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:11.2%; inner_wear:75.7%
+test0440	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:22.8%; outer_missing:55.6%
+test0441	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:89.8%
+test0442	roller_broken	60.0%	roller_broken	inner_wear	inner_broken	roller_broken	roller_broken	roller_broken:3票; inner_wear:1票; inner_broken:1票	inner_broken:32.1%; inner_wear:18.2%; normal:11.6%; roller_broken:28.4%
+test0443	inner_broken	40.0%	inner_broken	outer_missing	inner_broken	roller_broken	roller_broken	inner_broken:2票; roller_broken:2票; outer_missing:1票	inner_broken:38.9%; outer_missing:27.7%; roller_broken:27.1%
+test0444	inner_wear	60.0%	inner_wear	inner_wear	outer_missing	inner_wear	outer_missing	inner_wear:3票; outer_missing:2票	inner_broken:23.1%; inner_wear:33.9%; outer_missing:28.1%
+test0445	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	normal:55.3%; roller_broken:37.6%
+test0446	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:57.3%; outer_missing:23.8%; roller_broken:12.2%
+test0447	outer_missing	60.0%	outer_missing	outer_missing	outer_missing	roller_broken	roller_broken	outer_missing:3票; roller_broken:2票	inner_broken:17.1%; normal:17.8%; outer_missing:35.8%; roller_broken:20.9%
+test0448	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:11.8%; normal:48.9%; roller_broken:34.6%
+test0449	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0450	inner_wear	60.0%	outer_missing	inner_wear	inner_wear	inner_broken	inner_wear	inner_wear:3票; outer_missing:1票; inner_broken:1票	inner_broken:21.4%; inner_wear:36.7%; outer_missing:25.5%
+test0451	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0452	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:26.4%; outer_missing:54.9%
+test0453	inner_broken	80.0%	inner_broken	roller_broken	inner_broken	inner_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:45.9%; outer_missing:24.0%; roller_broken:19.7%
+test0454	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0455	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear	inner_wear:4票; roller_broken:1票	inner_broken:14.6%; inner_wear:44.1%; normal:11.9%; roller_broken:26.5%
+test0456	inner_wear	40.0%	inner_broken	normal	outer_missing	inner_wear	inner_wear	inner_wear:2票; inner_broken:1票; normal:1票; outer_missing:1票	inner_broken:22.0%; inner_wear:18.3%; normal:17.7%; outer_missing:22.8%; roller_broken:15.0%
+test0457	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:44.2%; normal:17.4%; outer_missing:10.4%; roller_broken:25.8%
+test0458	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	outer_missing	inner_broken	outer_missing:4票; inner_broken:1票	inner_broken:44.1%; outer_missing:51.7%
+test0459	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:41.5%; normal:12.2%; outer_missing:16.3%; roller_broken:28.6%
+test0460	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0461	outer_missing	80.0%	outer_missing	inner_broken	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:36.0%; outer_missing:49.2%
+test0462	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0463	outer_missing	60.0%	outer_missing	inner_wear	outer_missing	roller_broken	outer_missing	outer_missing:3票; inner_wear:1票; roller_broken:1票	inner_broken:16.6%; inner_wear:17.7%; normal:13.0%; outer_missing:34.4%; roller_broken:18.1%
+test0464	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:52.8%; roller_broken:23.9%
+test0465	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:11.8%; inner_wear:62.3%; roller_broken:11.8%
+test0466	outer_missing	40.0%	outer_missing	normal	outer_missing	normal	roller_broken	outer_missing:2票; normal:2票; roller_broken:1票	inner_broken:11.9%; normal:29.8%; outer_missing:28.8%; roller_broken:26.1%
+test0467	normal	60.0%	roller_broken	normal	inner_wear	normal	normal	normal:3票; roller_broken:1票; inner_wear:1票	inner_broken:10.7%; inner_wear:19.2%; normal:35.8%; roller_broken:25.2%
+test0468	outer_missing	60.0%	outer_missing	normal	outer_missing	normal	outer_missing	outer_missing:3票; normal:2票	inner_broken:13.5%; normal:31.1%; outer_missing:34.7%; roller_broken:17.0%
+test0469	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:13.0%; normal:27.9%; roller_broken:50.8%
+test0470	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0471	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:58.6%; roller_broken:35.9%
+test0472	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:23.3%; inner_wear:16.6%; normal:18.5%; roller_broken:37.8%
+test0473	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:13.6%; inner_wear:60.1%; outer_missing:14.1%
+test0474	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	roller_broken	inner_broken	roller_broken:4票; inner_broken:1票	inner_broken:25.5%; normal:28.2%; roller_broken:38.6%
+test0475	inner_wear	80.0%	inner_wear	inner_wear	inner_broken	inner_wear	inner_wear	inner_wear:4票; inner_broken:1票	inner_broken:22.0%; inner_wear:57.7%
+test0476	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:60.0%; roller_broken:28.5%
+test0477	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0478	normal	60.0%	normal	normal	roller_broken	roller_broken	normal	normal:3票; roller_broken:2票	normal:44.2%; roller_broken:47.5%
+test0479	inner_wear	40.0%	inner_wear	inner_wear	outer_missing	roller_broken	roller_broken	inner_wear:2票; roller_broken:2票; outer_missing:1票	inner_wear:31.4%; normal:21.2%; outer_missing:11.7%; roller_broken:25.3%
+test0480	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:13.8%; normal:46.4%; outer_missing:21.1%; roller_broken:17.7%
+test0481	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:21.7%; outer_missing:53.0%; roller_broken:12.9%
+test0482	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:93.6%
+test0483	inner_wear	60.0%	inner_wear	inner_wear	outer_missing	outer_missing	inner_wear	inner_wear:3票; outer_missing:2票	inner_broken:13.7%; inner_wear:42.5%; outer_missing:41.5%
+test0484	inner_wear	40.0%	inner_wear	outer_missing	inner_broken	inner_broken	inner_wear	inner_wear:2票; inner_broken:2票; outer_missing:1票	inner_broken:29.3%; inner_wear:20.0%; outer_missing:23.3%; roller_broken:17.7%
+test0485	normal	40.0%	normal	outer_missing	roller_broken	roller_broken	normal	normal:2票; roller_broken:2票; outer_missing:1票	inner_broken:14.6%; normal:29.3%; outer_missing:22.9%; roller_broken:32.7%
+test0486	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0487	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:24.4%; outer_missing:69.7%
+test0488	inner_broken	60.0%	inner_broken	inner_broken	outer_missing	roller_broken	inner_broken	inner_broken:3票; outer_missing:1票; roller_broken:1票	inner_broken:39.1%; normal:10.2%; outer_missing:23.3%; roller_broken:20.3%
+test0489	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:75.7%; outer_missing:15.7%
+test0490	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:88.5%
+test0491	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0492	inner_wear	60.0%	roller_broken	inner_wear	inner_wear	roller_broken	inner_wear	inner_wear:3票; roller_broken:2票	inner_broken:12.3%; inner_wear:40.0%; normal:10.3%; outer_missing:14.2%; roller_broken:20.7%
+test0493	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:53.9%; roller_broken:43.9%
+test0494	outer_missing	40.0%	outer_missing	inner_wear	outer_missing	roller_broken	roller_broken	outer_missing:2票; roller_broken:2票; inner_wear:1票	inner_broken:22.3%; inner_wear:15.8%; normal:19.5%; outer_missing:21.7%; roller_broken:19.8%
+test0495	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0496	normal	40.0%	normal	roller_broken	normal	outer_missing	roller_broken	normal:2票; roller_broken:2票; outer_missing:1票	inner_broken:14.4%; normal:34.9%; outer_missing:17.2%; roller_broken:31.7%
+test0497	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0498	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	inner_wear	outer_missing	outer_missing:4票; inner_wear:1票	inner_broken:14.7%; inner_wear:27.2%; outer_missing:50.4%
+test0499	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0500	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0501	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:62.7%; roller_broken:29.4%
+test0502	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	normal:44.1%; roller_broken:36.1%
+test0503	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:13.4%; outer_missing:82.5%
+test0504	roller_broken	80.0%	inner_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:28.2%; normal:25.6%; roller_broken:39.5%
+test0505	inner_wear	60.0%	inner_wear	inner_wear	normal	normal	inner_wear	inner_wear:3票; normal:2票	inner_wear:28.5%; normal:34.9%; outer_missing:18.5%; roller_broken:12.9%
+test0506	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:14.5%; inner_wear:77.9%
+test0507	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0508	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:18.2%; normal:31.1%; roller_broken:48.0%
+test0509	normal	80.0%	normal	normal	outer_missing	normal	normal	normal:4票; outer_missing:1票	normal:46.7%; outer_missing:21.2%; roller_broken:21.8%
+test0510	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:11.6%; inner_wear:13.8%; outer_missing:67.1%
+test0511	inner_broken	40.0%	inner_broken	normal	roller_broken	roller_broken	inner_broken	inner_broken:2票; roller_broken:2票; normal:1票	inner_broken:27.2%; normal:25.7%; outer_missing:14.0%; roller_broken:32.1%
+test0512	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:16.4%; outer_missing:81.8%
+test0513	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:27.3%; outer_missing:52.8%; roller_broken:10.4%
+test0514	inner_broken	60.0%	inner_broken	normal	inner_broken	inner_broken	normal	inner_broken:3票; normal:2票	inner_broken:46.3%; normal:20.1%; outer_missing:22.2%
+test0515	outer_missing	60.0%	outer_missing	outer_missing	outer_missing	roller_broken	inner_broken	outer_missing:3票; roller_broken:1票; inner_broken:1票	inner_broken:25.2%; outer_missing:41.4%; roller_broken:18.6%
+test0516	roller_broken	60.0%	roller_broken	roller_broken	inner_wear	normal	roller_broken	roller_broken:3票; inner_wear:1票; normal:1票	inner_broken:21.4%; normal:26.4%; roller_broken:32.7%
+test0517	inner_wear	60.0%	inner_wear	inner_wear	inner_wear	normal	normal	inner_wear:3票; normal:2票	inner_wear:32.1%; normal:29.0%; roller_broken:28.5%
+test0518	normal	60.0%	roller_broken	inner_wear	normal	normal	normal	normal:3票; roller_broken:1票; inner_wear:1票	inner_wear:18.4%; normal:46.3%; outer_missing:10.9%; roller_broken:20.4%
+test0519	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.6%
+test0520	outer_missing	60.0%	outer_missing	outer_missing	outer_missing	normal	roller_broken	outer_missing:3票; normal:1票; roller_broken:1票	inner_broken:27.1%; normal:12.9%; outer_missing:38.3%; roller_broken:19.2%
+test0521	roller_broken	60.0%	outer_missing	roller_broken	outer_missing	roller_broken	roller_broken	roller_broken:3票; outer_missing:2票	inner_broken:21.8%; normal:16.5%; outer_missing:25.5%; roller_broken:32.3%
+test0522	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:61.1%; inner_wear:11.3%; roller_broken:10.1%
+test0523	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:27.1%; normal:11.0%; outer_missing:53.9%
+test0524	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0525	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:15.7%; outer_missing:78.6%
+test0526	roller_broken	60.0%	roller_broken	normal	inner_broken	roller_broken	roller_broken	roller_broken:3票; normal:1票; inner_broken:1票	inner_broken:25.4%; normal:24.6%; outer_missing:11.8%; roller_broken:32.2%
+test0527	inner_broken	60.0%	outer_missing	inner_broken	inner_broken	outer_missing	inner_broken	inner_broken:3票; outer_missing:2票	inner_broken:45.6%; outer_missing:47.4%
+test0528	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0529	outer_missing	80.0%	inner_broken	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:30.4%; outer_missing:54.9%
+test0530	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:21.6%; outer_missing:72.5%
+test0531	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	normal:31.7%; roller_broken:56.4%
+test0532	inner_broken	60.0%	roller_broken	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:43.1%; normal:13.2%; roller_broken:41.3%
+test0533	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:58.4%; roller_broken:21.8%
+test0534	normal	40.0%	normal	inner_broken	roller_broken	normal	roller_broken	normal:2票; roller_broken:2票; inner_broken:1票	inner_broken:21.8%; normal:27.2%; outer_missing:16.9%; roller_broken:33.7%
+test0535	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:31.4%; outer_missing:65.2%
+test0536	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:52.0%; outer_missing:12.0%; roller_broken:24.1%
+test0537	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0538	roller_broken	60.0%	inner_broken	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:2票	inner_broken:37.4%; outer_missing:12.3%; roller_broken:36.1%
+test0539	roller_broken	60.0%	normal	roller_broken	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	inner_broken:15.3%; normal:33.9%; roller_broken:48.7%
+test0540	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:28.2%; normal:24.3%; roller_broken:45.6%
+test0541	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0542	normal	60.0%	inner_wear	normal	normal	normal	roller_broken	normal:3票; inner_wear:1票; roller_broken:1票	inner_wear:21.7%; normal:31.8%; roller_broken:34.3%
+test0543	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	outer_missing:89.9%
+test0544	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:13.3%; inner_wear:76.3%
+test0545	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:67.6%; outer_missing:15.7%; roller_broken:10.8%
+test0546	roller_broken	60.0%	roller_broken	normal	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	inner_broken:20.6%; normal:32.4%; roller_broken:35.4%
+test0547	roller_broken	60.0%	normal	roller_broken	roller_broken	roller_broken	normal	roller_broken:3票; normal:2票	normal:43.4%; roller_broken:47.1%
+test0548	outer_missing	60.0%	normal	outer_missing	outer_missing	outer_missing	normal	outer_missing:3票; normal:2票	inner_broken:21.2%; normal:29.2%; outer_missing:29.9%; roller_broken:19.1%
+test0549	outer_missing	40.0%	outer_missing	outer_missing	inner_broken	normal	inner_broken	outer_missing:2票; inner_broken:2票; normal:1票	inner_broken:36.7%; normal:15.4%; outer_missing:36.4%
+test0550	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0551	normal	80.0%	normal	normal	outer_missing	normal	normal	normal:4票; outer_missing:1票	normal:48.5%; roller_broken:31.0%
+test0552	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0553	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0554	inner_broken	80.0%	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:45.2%; inner_wear:13.6%; roller_broken:31.1%
+test0555	inner_broken	60.0%	inner_broken	normal	inner_broken	normal	inner_broken	inner_broken:3票; normal:2票	inner_broken:43.7%; normal:25.4%; roller_broken:22.4%
+test0556	normal	40.0%	normal	outer_missing	roller_broken	outer_missing	normal	normal:2票; outer_missing:2票; roller_broken:1票	inner_broken:18.1%; normal:30.1%; outer_missing:31.0%; roller_broken:19.9%
+test0557	inner_broken	60.0%	inner_broken	normal	inner_broken	inner_broken	roller_broken	inner_broken:3票; normal:1票; roller_broken:1票	inner_broken:34.3%; normal:22.1%; outer_missing:24.5%; roller_broken:18.7%
+test0558	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0559	normal	80.0%	normal	normal	inner_broken	normal	normal	normal:4票; inner_broken:1票	inner_broken:13.8%; normal:43.2%; roller_broken:34.2%
+test0560	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:67.0%; roller_broken:24.0%
+test0561	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0562	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0563	normal	60.0%	inner_broken	normal	normal	normal	roller_broken	normal:3票; inner_broken:1票; roller_broken:1票	inner_broken:21.2%; normal:26.1%; outer_missing:20.3%; roller_broken:30.8%
+test0564	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:99.5%
+test0565	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0566	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	normal:26.9%; roller_broken:62.5%
+test0567	inner_broken	40.0%	inner_broken	inner_broken	normal	roller_broken	normal	inner_broken:2票; normal:2票; roller_broken:1票	inner_broken:23.7%; normal:35.1%; roller_broken:32.0%
+test0568	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:98.9%
+test0569	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0570	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:50.4%; roller_broken:36.3%
+test0571	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:23.7%; outer_missing:74.3%
+test0572	roller_broken	80.0%	roller_broken	roller_broken	outer_missing	roller_broken	roller_broken	roller_broken:4票; outer_missing:1票	inner_broken:23.0%; normal:15.1%; outer_missing:13.1%; roller_broken:48.0%
+test0573	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:19.1%; outer_missing:80.2%
+test0574	normal	60.0%	roller_broken	roller_broken	normal	normal	normal	normal:3票; roller_broken:2票	inner_broken:11.3%; normal:41.6%; roller_broken:38.5%
+test0575	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0576	inner_broken	60.0%	inner_broken	inner_broken	outer_missing	outer_missing	inner_broken	inner_broken:3票; outer_missing:2票	inner_broken:49.4%; outer_missing:37.7%
+test0577	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.3%; inner_wear:14.3%; outer_missing:41.5%
+test0578	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0579	inner_broken	60.0%	inner_broken	normal	inner_broken	inner_broken	normal	inner_broken:3票; normal:2票	inner_broken:37.1%; normal:27.4%; outer_missing:18.5%; roller_broken:16.8%
+test0580	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:14.7%; normal:10.5%; outer_missing:60.5%
+test0581	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:27.7%; normal:16.3%; outer_missing:10.1%; roller_broken:42.8%
+test0582	normal	80.0%	normal	outer_missing	normal	normal	normal	normal:4票; outer_missing:1票	inner_broken:17.0%; normal:33.8%; outer_missing:18.6%; roller_broken:29.6%
+test0583	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:83.6%
+test0584	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear	inner_wear:4票; roller_broken:1票	inner_wear:49.9%; normal:11.9%; roller_broken:27.1%
+test0585	inner_wear	80.0%	inner_wear	inner_wear	normal	inner_wear	inner_wear	inner_wear:4票; normal:1票	inner_wear:41.2%; normal:21.7%; outer_missing:17.4%; roller_broken:13.0%
+test0586	normal	60.0%	normal	roller_broken	normal	normal	roller_broken	normal:3票; roller_broken:2票	normal:47.2%; roller_broken:42.8%
+test0587	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	normal:41.5%; roller_broken:37.0%
+test0588	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:48.3%; outer_missing:15.2%; roller_broken:28.1%
+test0589	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:31.1%; inner_wear:13.5%; outer_missing:51.7%
+test0590	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0591	normal	60.0%	inner_broken	normal	normal	inner_broken	normal	normal:3票; inner_broken:2票	inner_broken:28.7%; inner_wear:12.5%; normal:28.6%; roller_broken:25.6%
+test0592	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0593	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:23.9%; normal:18.8%; roller_broken:52.1%
+test0594	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0595	outer_missing	60.0%	inner_broken	outer_missing	inner_broken	outer_missing	outer_missing	outer_missing:3票; inner_broken:2票	inner_broken:39.4%; outer_missing:43.9%
+test0596	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0597	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0598	normal	60.0%	normal	normal	outer_missing	roller_broken	normal	normal:3票; outer_missing:1票; roller_broken:1票	inner_broken:13.7%; normal:39.3%; outer_missing:13.8%; roller_broken:26.6%
+test0599	roller_broken	60.0%	inner_broken	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:2票	inner_broken:32.4%; normal:18.7%; outer_missing:16.5%; roller_broken:31.1%
+test0600	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:18.6%; outer_missing:79.5%
+test0601	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:25.0%; inner_wear:51.5%; outer_missing:16.1%
+test0602	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:62.9%; roller_broken:27.7%
+test0603	inner_broken	40.0%	inner_broken	roller_broken	inner_broken	normal	roller_broken	inner_broken:2票; roller_broken:2票; normal:1票	inner_broken:22.5%; normal:23.8%; outer_missing:16.9%; roller_broken:36.0%
+test0604	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0605	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:60.5%; roller_broken:32.6%
+test0606	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	roller_broken	normal	roller_broken:4票; normal:1票	inner_broken:11.0%; normal:39.5%; roller_broken:44.4%
+test0607	inner_broken	80.0%	inner_wear	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:4票; inner_wear:1票	inner_broken:46.5%; inner_wear:34.2%; outer_missing:12.9%
+test0608	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	inner_broken:14.8%; normal:38.8%; roller_broken:36.9%
+test0609	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0610	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:96.1%
+test0611	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:82.4%
+test0612	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:39.4%; outer_missing:13.3%; roller_broken:30.3%
+test0613	inner_wear	60.0%	inner_wear	inner_wear	outer_missing	outer_missing	inner_wear	inner_wear:3票; outer_missing:2票	inner_wear:37.7%; normal:10.2%; outer_missing:30.9%; roller_broken:10.5%
+test0614	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:99.8%
+test0615	roller_broken	40.0%	roller_broken	inner_wear	inner_wear	roller_broken	inner_broken	roller_broken:2票; inner_wear:2票; inner_broken:1票	inner_broken:21.3%; inner_wear:26.8%; roller_broken:41.2%
+test0616	roller_broken	60.0%	normal	normal	roller_broken	roller_broken	roller_broken	roller_broken:3票; normal:2票	inner_broken:12.4%; normal:34.6%; roller_broken:45.0%
+test0617	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0618	roller_broken	40.0%	outer_missing	roller_broken	normal	normal	roller_broken	roller_broken:2票; normal:2票; outer_missing:1票	inner_broken:20.5%; normal:29.5%; outer_missing:16.6%; roller_broken:32.1%
+test0619	normal	60.0%	roller_broken	normal	normal	normal	roller_broken	normal:3票; roller_broken:2票	normal:46.5%; roller_broken:41.4%
+test0620	inner_wear	40.0%	inner_wear	normal	inner_wear	roller_broken	roller_broken	inner_wear:2票; roller_broken:2票; normal:1票	inner_wear:22.3%; normal:19.6%; roller_broken:40.5%
+test0621	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:14.1%; outer_missing:65.9%
+test0622	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0623	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:55.5%; roller_broken:27.6%
+test0624	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.8%
+test0625	normal	80.0%	outer_missing	normal	normal	normal	normal	normal:4票; outer_missing:1票	inner_broken:10.9%; normal:39.0%; outer_missing:12.3%; roller_broken:28.8%
+test0626	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.3%; outer_missing:65.5%
+test0627	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:37.7%; outer_missing:57.0%
+test0628	normal	60.0%	roller_broken	normal	normal	normal	roller_broken	normal:3票; roller_broken:2票	normal:48.0%; roller_broken:49.2%
+test0629	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0630	inner_wear	60.0%	outer_missing	inner_wear	inner_wear	outer_missing	inner_wear	inner_wear:3票; outer_missing:2票	inner_wear:45.7%; outer_missing:33.6%
+test0631	normal	60.0%	outer_missing	normal	normal	normal	roller_broken	normal:3票; outer_missing:1票; roller_broken:1票	inner_broken:11.6%; normal:38.8%; outer_missing:13.8%; roller_broken:29.7%
+test0632	roller_broken	80.0%	roller_broken	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:17.7%; normal:22.8%; roller_broken:42.7%
+test0633	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:19.8%; outer_missing:79.6%
+test0634	roller_broken	60.0%	roller_broken	roller_broken	roller_broken	normal	normal	roller_broken:3票; normal:2票	normal:39.4%; roller_broken:42.5%
+test0635	inner_broken	60.0%	inner_broken	normal	inner_broken	normal	inner_broken	inner_broken:3票; normal:2票	inner_broken:34.0%; inner_wear:12.9%; normal:22.5%; roller_broken:20.1%
+test0636	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0637	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0638	inner_broken	60.0%	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:38.8%; normal:14.7%; roller_broken:38.5%
+test0639	roller_broken	60.0%	roller_broken	normal	roller_broken	roller_broken	normal	roller_broken:3票; normal:2票	inner_broken:10.7%; normal:37.5%; roller_broken:40.7%
+test0640	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0641	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:85.4%
+test0642	outer_missing	60.0%	outer_missing	outer_missing	outer_missing	normal	roller_broken	outer_missing:3票; normal:1票; roller_broken:1票	inner_broken:13.2%; normal:19.8%; outer_missing:43.5%; roller_broken:16.4%
+test0643	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:94.5%
+test0644	roller_broken	60.0%	outer_missing	roller_broken	roller_broken	normal	roller_broken	roller_broken:3票; outer_missing:1票; normal:1票	inner_broken:16.6%; normal:25.7%; outer_missing:14.7%; roller_broken:39.4%
+test0645	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:96.6%
+test0646	inner_wear	60.0%	inner_wear	inner_broken	inner_wear	normal	inner_wear	inner_wear:3票; inner_broken:1票; normal:1票	inner_broken:22.5%; inner_wear:33.1%; normal:15.3%; roller_broken:17.6%
+test0647	normal	60.0%	roller_broken	normal	normal	roller_broken	normal	normal:3票; roller_broken:2票	normal:43.7%; roller_broken:44.7%
+test0648	inner_wear	60.0%	inner_wear	normal	inner_wear	inner_wear	roller_broken	inner_wear:3票; normal:1票; roller_broken:1票	inner_broken:10.5%; inner_wear:27.5%; normal:25.6%; roller_broken:29.0%
+test0649	normal	60.0%	normal	outer_missing	outer_missing	normal	normal	normal:3票; outer_missing:2票	normal:48.0%; outer_missing:32.0%; roller_broken:12.8%
+test0650	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:67.2%; outer_missing:14.6%; roller_broken:12.0%
+test0651	inner_wear	40.0%	inner_broken	inner_wear	inner_wear	normal	normal	inner_wear:2票; normal:2票; inner_broken:1票	inner_broken:18.2%; inner_wear:25.1%; normal:23.0%; outer_missing:15.2%; roller_broken:17.2%
+test0652	inner_broken	40.0%	inner_broken	roller_broken	inner_broken	normal	roller_broken	inner_broken:2票; roller_broken:2票; normal:1票	inner_broken:26.0%; normal:21.0%; outer_missing:13.9%; roller_broken:38.0%
+test0653	roller_broken	80.0%	normal	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; normal:1票	inner_broken:17.6%; normal:30.6%; outer_missing:13.7%; roller_broken:37.3%
+test0654	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0655	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	outer_missing	inner_wear	outer_missing:4票; inner_wear:1票	inner_wear:28.3%; outer_missing:56.4%
+test0656	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0657	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:59.0%; roller_broken:29.8%
+test0658	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0659	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0660	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	normal	outer_missing	outer_missing:4票; normal:1票	inner_broken:16.7%; normal:22.6%; outer_missing:39.1%; roller_broken:13.5%
+test0661	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.9%; outer_missing:61.0%
+test0662	outer_missing	80.0%	outer_missing	inner_wear	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_wear:1票	inner_broken:20.7%; inner_wear:24.9%; outer_missing:42.8%
+test0663	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	inner_wear	normal	inner_wear:4票; normal:1票	inner_broken:10.1%; inner_wear:55.3%; normal:16.2%; roller_broken:15.4%
+test0664	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:81.2%
+test0665	normal	60.0%	inner_wear	normal	normal	inner_wear	normal	normal:3票; inner_wear:2票	inner_broken:17.1%; inner_wear:26.6%; normal:32.7%; roller_broken:20.0%
+test0666	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0667	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:74.2%
+test0668	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0669	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:63.4%; roller_broken:25.8%
+test0670	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0671	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:38.4%; outer_missing:53.3%
+test0672	inner_wear	60.0%	inner_broken	inner_wear	inner_wear	inner_broken	inner_wear	inner_wear:3票; inner_broken:2票	inner_broken:29.9%; inner_wear:45.6%; outer_missing:12.7%
+test0673	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0674	normal	60.0%	roller_broken	normal	normal	roller_broken	normal	normal:3票; roller_broken:2票	normal:41.2%; roller_broken:46.0%
+test0675	normal	80.0%	normal	normal	roller_broken	normal	normal	normal:4票; roller_broken:1票	normal:56.1%; roller_broken:33.1%
+test0676	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0677	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	roller_broken	outer_missing	outer_missing:4票; roller_broken:1票	inner_broken:16.9%; normal:13.5%; outer_missing:43.5%; roller_broken:18.3%
+test0678	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	normal	roller_broken	roller_broken:4票; normal:1票	normal:38.4%; roller_broken:50.0%
+test0679	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0680	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0681	roller_broken	60.0%	roller_broken	roller_broken	roller_broken	normal	normal	roller_broken:3票; normal:2票	inner_broken:18.8%; normal:30.9%; outer_missing:11.8%; roller_broken:36.4%
+test0682	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:47.8%; outer_missing:10.8%; roller_broken:30.7%
+test0683	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	normal	roller_broken	roller_broken:4票; normal:1票	inner_broken:13.3%; normal:31.0%; roller_broken:46.9%
+test0684	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:22.1%; normal:19.7%; roller_broken:50.3%
+test0685	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:12.9%; inner_wear:10.1%; outer_missing:74.8%
+test0686	roller_broken	60.0%	roller_broken	inner_broken	roller_broken	normal	roller_broken	roller_broken:3票; inner_broken:1票; normal:1票	inner_broken:17.8%; normal:33.4%; roller_broken:44.9%
+test0687	roller_broken	60.0%	normal	roller_broken	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	inner_broken:13.7%; normal:42.6%; roller_broken:40.4%
+test0688	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear	inner_wear:4票; roller_broken:1票	inner_broken:14.2%; inner_wear:54.6%; normal:10.7%; roller_broken:15.6%
+test0689	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0690	inner_wear	40.0%	inner_wear	inner_wear	normal	roller_broken	roller_broken	inner_wear:2票; roller_broken:2票; normal:1票	inner_wear:35.2%; normal:31.0%; roller_broken:31.6%
+test0691	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0692	inner_broken	60.0%	normal	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:3票; normal:1票; roller_broken:1票	inner_broken:25.1%; normal:27.2%; outer_missing:14.5%; roller_broken:32.9%
+test0693	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:28.3%; outer_missing:68.9%
+test0694	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	outer_missing	inner_broken	outer_missing:4票; inner_broken:1票	inner_broken:33.8%; outer_missing:64.7%
+test0695	inner_broken	60.0%	inner_broken	outer_missing	inner_broken	outer_missing	inner_broken	inner_broken:3票; outer_missing:2票	inner_broken:45.3%; outer_missing:30.6%
+test0696	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0697	roller_broken	40.0%	inner_broken	roller_broken	normal	roller_broken	normal	roller_broken:2票; normal:2票; inner_broken:1票	inner_broken:19.0%; normal:39.1%; roller_broken:32.7%
+test0698	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:77.8%
+test0699	roller_broken	40.0%	roller_broken	inner_wear	roller_broken	normal	inner_wear	roller_broken:2票; inner_wear:2票; normal:1票	inner_broken:17.6%; inner_wear:19.5%; normal:24.9%; roller_broken:32.8%
+test0700	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:11.5%; outer_missing:86.4%
+test0701	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0702	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:89.1%
+test0703	inner_wear	80.0%	inner_wear	inner_wear	inner_broken	inner_wear	inner_wear	inner_wear:4票; inner_broken:1票	inner_broken:30.7%; inner_wear:50.7%
+test0704	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:51.3%; outer_missing:15.9%; roller_broken:19.9%
+test0705	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:23.7%; outer_missing:74.7%
+test0706	roller_broken	60.0%	roller_broken	roller_broken	normal	normal	roller_broken	roller_broken:3票; normal:2票	normal:44.9%; roller_broken:47.0%
+test0707	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:66.5%
+test0708	inner_broken	60.0%	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:34.2%; normal:21.3%; roller_broken:37.9%
+test0709	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:74.0%
+test0710	inner_broken	60.0%	roller_broken	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:55.4%; roller_broken:25.6%
+test0711	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:52.6%; inner_wear:13.9%; roller_broken:18.0%
+test0712	normal	80.0%	normal	normal	roller_broken	normal	normal	normal:4票; roller_broken:1票	normal:48.2%; roller_broken:34.5%
+test0713	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0714	outer_missing	60.0%	inner_wear	outer_missing	outer_missing	outer_missing	inner_broken	outer_missing:3票; inner_wear:1票; inner_broken:1票	inner_broken:23.7%; inner_wear:23.6%; outer_missing:42.0%
+test0715	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:73.2%; outer_missing:17.9%
+test0716	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0717	normal	60.0%	inner_broken	normal	normal	roller_broken	normal	normal:3票; inner_broken:1票; roller_broken:1票	inner_broken:26.6%; normal:36.4%; roller_broken:27.4%
+test0718	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0719	roller_broken	80.0%	roller_broken	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:27.0%; normal:19.7%; roller_broken:42.9%
+test0720	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	normal:53.1%; roller_broken:43.6%
+test0721	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0722	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0723	roller_broken	60.0%	roller_broken	roller_broken	normal	normal	roller_broken	roller_broken:3票; normal:2票	normal:43.8%; roller_broken:44.6%
+test0724	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.7%; inner_wear:17.5%; outer_missing:52.5%
+test0725	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:17.4%; outer_missing:72.5%
+test0726	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0727	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0728	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:83.9%
+test0729	roller_broken	60.0%	roller_broken	normal	normal	roller_broken	roller_broken	roller_broken:3票; normal:2票	normal:43.8%; roller_broken:42.9%
+test0730	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0731	inner_broken	60.0%	inner_broken	roller_broken	inner_broken	roller_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:38.9%; normal:10.1%; outer_missing:13.6%; roller_broken:34.0%
+test0732	roller_broken	80.0%	roller_broken	normal	roller_broken	roller_broken	roller_broken	roller_broken:4票; normal:1票	inner_broken:20.6%; normal:30.2%; roller_broken:44.0%
+test0733	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0734	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:65.1%; outer_missing:11.1%; roller_broken:18.4%
+test0735	inner_broken	60.0%	inner_broken	inner_broken	inner_broken	normal	roller_broken	inner_broken:3票; normal:1票; roller_broken:1票	inner_broken:39.5%; normal:23.6%; roller_broken:23.6%
+test0736	roller_broken	60.0%	roller_broken	normal	inner_wear	roller_broken	roller_broken	roller_broken:3票; normal:1票; inner_wear:1票	inner_broken:16.6%; inner_wear:11.1%; normal:24.4%; roller_broken:42.8%
+test0737	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	inner_wear	normal	inner_wear:4票; normal:1票	inner_wear:50.1%; normal:21.1%; roller_broken:13.2%
+test0738	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0739	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:87.8%
+test0740	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:90.5%
+test0741	normal	60.0%	outer_missing	normal	outer_missing	normal	normal	normal:3票; outer_missing:2票	inner_broken:13.6%; normal:38.3%; outer_missing:28.5%; roller_broken:15.1%
+test0742	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:23.3%; normal:15.0%; outer_missing:47.5%; roller_broken:13.7%
+test0743	inner_wear	40.0%	inner_wear	inner_wear	roller_broken	inner_broken	roller_broken	inner_wear:2票; roller_broken:2票; inner_broken:1票	inner_broken:23.9%; inner_wear:17.7%; normal:19.7%; outer_missing:10.8%; roller_broken:27.2%
+test0744	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0745	roller_broken	60.0%	inner_broken	roller_broken	roller_broken	roller_broken	inner_broken	roller_broken:3票; inner_broken:2票	inner_broken:37.6%; normal:11.0%; roller_broken:42.6%
+test0746	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:20.3%; normal:17.3%; roller_broken:46.6%
+test0747	inner_broken	60.0%	inner_broken	outer_missing	inner_broken	outer_missing	inner_broken	inner_broken:3票; outer_missing:2票	inner_broken:44.1%; outer_missing:46.1%
+test0748	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:57.4%; roller_broken:36.2%
+test0749	inner_wear	60.0%	inner_wear	inner_wear	inner_wear	roller_broken	roller_broken	inner_wear:3票; roller_broken:2票	inner_broken:15.7%; inner_wear:41.1%; normal:12.5%; roller_broken:25.1%
+test0750	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	outer_missing	inner_broken	inner_broken:4票; outer_missing:1票	inner_broken:44.3%; inner_wear:10.3%; outer_missing:36.7%
+test0751	normal	40.0%	normal	normal	outer_missing	roller_broken	roller_broken	normal:2票; roller_broken:2票; outer_missing:1票	inner_broken:18.4%; inner_wear:17.4%; normal:21.3%; outer_missing:19.4%; roller_broken:22.8%
+test0752	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:59.7%; roller_broken:25.3%
+test0753	roller_broken	80.0%	roller_broken	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:17.0%; inner_wear:15.2%; normal:22.8%; roller_broken:38.4%
+test0754	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0755	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:47.4%; outer_missing:30.2%; roller_broken:14.0%
+test0756	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0757	roller_broken	80.0%	inner_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:22.0%; normal:21.9%; outer_missing:15.6%; roller_broken:39.6%
+test0758	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0759	inner_broken	60.0%	inner_broken	roller_broken	inner_broken	roller_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:37.4%; normal:16.7%; outer_missing:17.9%; roller_broken:27.3%
+test0760	normal	60.0%	normal	roller_broken	outer_missing	normal	normal	normal:3票; roller_broken:1票; outer_missing:1票	normal:44.8%; outer_missing:14.9%; roller_broken:30.4%
+test0761	roller_broken	60.0%	roller_broken	inner_wear	roller_broken	roller_broken	normal	roller_broken:3票; inner_wear:1票; normal:1票	inner_broken:16.2%; inner_wear:15.9%; normal:28.3%; roller_broken:37.0%
+test0762	roller_broken	60.0%	roller_broken	inner_wear	inner_wear	roller_broken	roller_broken	roller_broken:3票; inner_wear:2票	inner_broken:16.5%; inner_wear:36.0%; roller_broken:29.9%
+test0763	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:45.4%; outer_missing:31.9%
+test0764	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	normal:51.6%; roller_broken:42.5%
+test0765	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:30.6%; outer_missing:66.3%
+test0766	outer_missing	60.0%	outer_missing	inner_broken	outer_missing	outer_missing	inner_broken	outer_missing:3票; inner_broken:2票	inner_broken:41.3%; outer_missing:41.9%
+test0767	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0768	inner_broken	60.0%	inner_broken	normal	inner_broken	normal	inner_broken	inner_broken:3票; normal:2票	inner_broken:33.3%; normal:30.4%; outer_missing:14.9%; roller_broken:20.8%
+test0769	roller_broken	60.0%	inner_broken	inner_wear	roller_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:1票; inner_wear:1票	inner_broken:23.5%; inner_wear:24.6%; normal:12.3%; roller_broken:33.5%
+test0770	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:65.5%; roller_broken:16.3%
+test0771	inner_wear	60.0%	inner_wear	inner_wear	outer_missing	inner_wear	outer_missing	inner_wear:3票; outer_missing:2票	inner_broken:20.5%; inner_wear:29.1%; normal:15.2%; outer_missing:25.8%
+test0772	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:56.7%; roller_broken:26.9%
+test0773	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:15.0%; inner_wear:10.6%; normal:23.8%; outer_missing:10.1%; roller_broken:40.3%
+test0774	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0775	normal	80.0%	inner_wear	normal	normal	normal	normal	normal:4票; inner_wear:1票	inner_wear:25.7%; normal:49.1%; roller_broken:11.4%
+test0776	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:95.8%
+test0777	roller_broken	60.0%	inner_broken	normal	roller_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:1票; normal:1票	inner_broken:27.8%; normal:26.2%; roller_broken:35.3%
+test0778	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0779	normal	80.0%	outer_missing	normal	normal	normal	normal	normal:4票; outer_missing:1票	normal:62.3%; outer_missing:15.3%; roller_broken:15.9%
+test0780	normal	80.0%	inner_broken	normal	normal	normal	normal	normal:4票; inner_broken:1票	inner_broken:21.9%; normal:35.7%; outer_missing:14.1%; roller_broken:27.1%
+test0781	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:52.5%; inner_wear:15.8%; outer_missing:28.7%
+test0782	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:27.7%; outer_missing:53.7%
+test0783	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0784	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0785	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:29.5%; outer_missing:52.4%
+test0786	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:35.1%; outer_missing:58.2%
+test0787	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	normal:55.4%; roller_broken:34.7%
+test0788	outer_missing	80.0%	normal	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:4票; normal:1票	inner_broken:13.0%; normal:24.6%; outer_missing:43.7%; roller_broken:18.0%
+test0789	inner_broken	60.0%	inner_broken	roller_broken	inner_broken	inner_broken	normal	inner_broken:3票; roller_broken:1票; normal:1票	inner_broken:26.6%; normal:25.8%; outer_missing:13.9%; roller_broken:26.0%
+test0790	inner_broken	60.0%	outer_missing	inner_broken	outer_missing	inner_broken	inner_broken	inner_broken:3票; outer_missing:2票	inner_broken:37.2%; normal:11.2%; outer_missing:37.2%; roller_broken:13.4%
+test0791	inner_broken	40.0%	inner_broken	inner_broken	roller_broken	normal	roller_broken	inner_broken:2票; roller_broken:2票; normal:1票	inner_broken:26.2%; normal:22.2%; outer_missing:21.2%; roller_broken:21.5%
+test0792	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:21.0%; normal:27.4%; roller_broken:37.9%
+test0793	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0794	normal	60.0%	roller_broken	roller_broken	normal	normal	normal	normal:3票; roller_broken:2票	inner_broken:10.4%; normal:41.9%; roller_broken:44.3%
+test0795	outer_missing	60.0%	inner_broken	outer_missing	outer_missing	normal	outer_missing	outer_missing:3票; inner_broken:1票; normal:1票	inner_broken:27.6%; normal:14.2%; outer_missing:35.3%; roller_broken:13.0%
+test0796	roller_broken	60.0%	normal	roller_broken	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	normal:35.3%; outer_missing:12.2%; roller_broken:40.9%
+test0797	roller_broken	80.0%	inner_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:27.1%; normal:18.1%; roller_broken:47.1%
+test0798	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0799	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:95.9%
+test0800	normal	80.0%	outer_missing	normal	normal	normal	normal	normal:4票; outer_missing:1票	normal:56.7%; outer_missing:13.6%; roller_broken:20.1%
+test0801	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:70.2%; outer_missing:11.9%; roller_broken:12.5%
+test0802	normal	60.0%	normal	normal	roller_broken	normal	roller_broken	normal:3票; roller_broken:2票	normal:48.0%; roller_broken:40.1%
+test0803	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.7%
+test0804	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:54.1%; roller_broken:36.6%
+test0805	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear	inner_wear:4票; roller_broken:1票	inner_wear:56.4%; roller_broken:30.0%
+test0806	roller_broken	60.0%	normal	roller_broken	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	inner_broken:22.6%; normal:32.7%; roller_broken:41.2%
+test0807	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:89.5%
+test0808	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:26.9%; normal:10.3%; outer_missing:50.8%; roller_broken:10.2%
+test0809	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:99.7%
+test0810	inner_broken	60.0%	outer_missing	inner_broken	inner_broken	inner_broken	outer_missing	inner_broken:3票; outer_missing:2票	inner_broken:44.2%; outer_missing:41.7%
+test0811	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:72.4%; outer_missing:15.1%
+test0812	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:30.4%; outer_missing:48.5%
+test0813	normal	60.0%	normal	normal	normal	roller_broken	roller_broken	normal:3票; roller_broken:2票	inner_broken:22.9%; normal:28.1%; outer_missing:18.9%; roller_broken:29.4%
+test0814	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:23.4%; outer_missing:65.0%
+test0815	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:24.3%; inner_wear:16.9%; outer_missing:47.8%
+test0816	inner_broken	40.0%	inner_broken	roller_broken	inner_broken	outer_missing	roller_broken	inner_broken:2票; roller_broken:2票; outer_missing:1票	inner_broken:32.8%; normal:17.6%; outer_missing:21.7%; roller_broken:24.8%
+test0817	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:64.5%; outer_missing:26.3%
+test0818	inner_wear	60.0%	inner_wear	inner_wear	inner_wear	normal	roller_broken	inner_wear:3票; normal:1票; roller_broken:1票	inner_wear:40.8%; normal:17.8%; roller_broken:36.1%
+test0819	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0820	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0821	normal	40.0%	inner_wear	normal	inner_broken	roller_broken	normal	normal:2票; inner_wear:1票; inner_broken:1票; roller_broken:1票	inner_broken:23.0%; inner_wear:10.3%; normal:29.8%; roller_broken:29.9%
+test0822	inner_wear	60.0%	inner_wear	inner_wear	outer_missing	normal	inner_wear	inner_wear:3票; outer_missing:1票; normal:1票	inner_broken:10.5%; inner_wear:32.3%; normal:18.5%; outer_missing:21.1%; roller_broken:17.5%
+test0823	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:12.9%; normal:55.9%; roller_broken:23.9%
+test0824	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0825	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:56.9%; outer_missing:31.2%
+test0826	normal	40.0%	normal	roller_broken	outer_missing	normal	inner_broken	normal:2票; roller_broken:1票; outer_missing:1票; inner_broken:1票	inner_broken:26.2%; normal:27.4%; outer_missing:17.0%; roller_broken:27.3%
+test0827	normal	80.0%	normal	normal	roller_broken	normal	normal	normal:4票; roller_broken:1票	normal:50.9%; roller_broken:36.4%
+test0828	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:64.4%; roller_broken:24.9%
+test0829	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken:4票; roller_broken:1票	inner_broken:47.5%; roller_broken:30.3%
+test0830	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:50.2%; roller_broken:32.4%
+test0831	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	normal	outer_missing	outer_missing:4票; normal:1票	inner_broken:26.0%; normal:16.2%; outer_missing:43.9%; roller_broken:12.5%
+test0832	normal	60.0%	outer_missing	normal	normal	normal	roller_broken	normal:3票; outer_missing:1票; roller_broken:1票	inner_broken:10.6%; normal:39.1%; outer_missing:15.4%; roller_broken:34.1%
+test0833	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:58.2%; roller_broken:29.1%
+test0834	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	outer_missing	inner_wear	outer_missing:4票; inner_wear:1票	inner_broken:13.6%; inner_wear:16.9%; outer_missing:55.4%
+test0835	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:14.7%; normal:24.2%; outer_missing:45.8%; roller_broken:14.3%
+test0836	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:70.3%
+test0837	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:31.5%; outer_missing:54.4%
+test0838	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.3%; outer_missing:73.1%
+test0839	roller_broken	60.0%	roller_broken	inner_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:2票	inner_broken:29.1%; inner_wear:16.9%; roller_broken:39.7%
+test0840	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0841	outer_missing	80.0%	outer_missing	inner_wear	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_wear:1票	inner_wear:28.3%; normal:11.9%; outer_missing:41.2%
+test0842	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:27.5%; outer_missing:71.5%
+test0843	normal	80.0%	outer_missing	normal	normal	normal	normal	normal:4票; outer_missing:1票	inner_broken:10.3%; normal:50.6%; outer_missing:15.6%; roller_broken:22.9%
+test0844	roller_broken	40.0%	roller_broken	inner_broken	normal	roller_broken	normal	roller_broken:2票; normal:2票; inner_broken:1票	inner_broken:29.0%; normal:28.5%; roller_broken:29.9%
+test0845	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0846	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:21.5%; normal:18.6%; outer_missing:10.5%; roller_broken:46.4%
+test0847	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:97.3%
+test0848	normal	40.0%	inner_broken	normal	roller_broken	roller_broken	normal	normal:2票; roller_broken:2票; inner_broken:1票	inner_broken:23.4%; normal:32.2%; roller_broken:37.2%
+test0849	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:82.3%
+test0850	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:16.6%; outer_missing:60.6%
+test0851	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:14.9%; outer_missing:73.3%
+test0852	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0853	roller_broken	60.0%	inner_broken	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:2票	inner_broken:23.9%; normal:23.5%; outer_missing:14.1%; roller_broken:37.9%
+test0854	outer_missing	60.0%	normal	outer_missing	outer_missing	outer_missing	normal	outer_missing:3票; normal:2票	inner_broken:19.2%; normal:25.4%; outer_missing:39.5%; roller_broken:15.0%
+test0855	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.7%
+test0856	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:17.3%; outer_missing:74.7%
+test0857	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.1%; outer_missing:63.3%
+test0858	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:87.5%
+test0859	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:15.7%; inner_wear:74.2%
+test0860	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:65.1%; roller_broken:25.6%
+test0861	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0862	inner_wear	80.0%	inner_wear	outer_missing	inner_wear	inner_wear	inner_wear	inner_wear:4票; outer_missing:1票	inner_broken:14.8%; inner_wear:51.7%; outer_missing:22.7%
+test0863	inner_wear	80.0%	outer_missing	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:4票; outer_missing:1票	inner_broken:20.5%; inner_wear:51.3%; outer_missing:15.7%
+test0864	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:38.3%; outer_missing:57.4%
+test0865	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:75.8%
+test0866	inner_wear	60.0%	inner_wear	inner_wear	normal	roller_broken	inner_wear	inner_wear:3票; normal:1票; roller_broken:1票	inner_wear:47.3%; normal:14.6%; roller_broken:20.7%
+test0867	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	outer_missing	inner_broken	inner_broken:4票; outer_missing:1票	inner_broken:48.3%; outer_missing:36.3%
+test0868	roller_broken	60.0%	outer_missing	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; outer_missing:1票; inner_broken:1票	inner_broken:19.0%; normal:12.8%; outer_missing:27.5%; roller_broken:40.4%
+test0869	normal	40.0%	normal	inner_wear	inner_wear	normal	roller_broken	normal:2票; inner_wear:2票; roller_broken:1票	inner_broken:10.8%; inner_wear:23.2%; normal:24.2%; outer_missing:14.9%; roller_broken:25.9%
+test0870	outer_missing	80.0%	outer_missing	inner_wear	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_wear:1票	inner_wear:25.4%; outer_missing:71.9%
+test0871	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	normal:45.1%; roller_broken:38.2%
+test0872	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:11.3%; normal:38.8%; roller_broken:46.7%
+test0873	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0874	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:48.5%; normal:13.1%; outer_missing:11.5%; roller_broken:26.2%
+test0875	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0876	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0877	inner_wear	80.0%	outer_missing	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:4票; outer_missing:1票	inner_broken:14.4%; inner_wear:59.2%; outer_missing:24.0%
+test0878	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:58.8%; normal:13.2%; roller_broken:19.3%
+test0879	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	outer_missing	inner_broken	outer_missing:4票; inner_broken:1票	inner_broken:42.3%; outer_missing:50.5%
+test0880	roller_broken	60.0%	normal	roller_broken	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	normal:34.2%; roller_broken:48.7%
+test0881	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0882	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0883	outer_missing	40.0%	outer_missing	inner_wear	outer_missing	inner_broken	inner_broken	outer_missing:2票; inner_broken:2票; inner_wear:1票	inner_broken:34.0%; inner_wear:11.7%; outer_missing:35.2%; roller_broken:12.6%
+test0884	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:13.0%; outer_missing:85.6%
+test0885	inner_broken	60.0%	inner_broken	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken:3票; roller_broken:2票	inner_broken:42.8%; normal:11.8%; roller_broken:30.5%
+test0886	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:10.2%; normal:56.8%; roller_broken:28.3%
+test0887	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:24.1%; outer_missing:71.4%
+test0888	outer_missing	80.0%	inner_broken	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:38.3%; outer_missing:53.0%
+test0889	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:17.9%; outer_missing:78.6%
+test0890	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:54.0%; roller_broken:36.5%
+test0891	normal	60.0%	normal	outer_missing	normal	normal	outer_missing	normal:3票; outer_missing:2票	inner_broken:14.4%; normal:30.1%; outer_missing:31.6%; roller_broken:21.7%
+test0892	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:23.1%; outer_missing:73.3%
+test0893	inner_wear	60.0%	inner_broken	inner_wear	inner_broken	inner_wear	inner_wear	inner_wear:3票; inner_broken:2票	inner_broken:27.4%; inner_wear:47.3%; outer_missing:18.7%
+test0894	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0895	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0896	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0897	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0898	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0899	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:14.3%; normal:52.2%; roller_broken:28.6%
+test0900	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:54.1%; normal:10.4%; roller_broken:25.8%
+test0901	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:11.3%; normal:51.3%; roller_broken:28.5%
+test0902	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:17.4%; outer_missing:81.2%
+test0903	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0904	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	normal	inner_broken	inner_broken:4票; normal:1票	inner_broken:39.6%; normal:12.8%; outer_missing:31.8%; roller_broken:14.4%
+test0905	inner_broken	80.0%	inner_broken	inner_wear	inner_broken	inner_broken	inner_broken	inner_broken:4票; inner_wear:1票	inner_broken:46.6%; inner_wear:32.5%; outer_missing:14.6%
+test0906	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.7%; outer_missing:72.6%
+test0907	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:97.9%
+test0908	inner_wear	60.0%	inner_wear	roller_broken	inner_wear	roller_broken	inner_wear	inner_wear:3票; roller_broken:2票	inner_broken:17.2%; inner_wear:36.3%; normal:13.3%; roller_broken:31.3%
+test0909	inner_broken	40.0%	inner_broken	roller_broken	inner_broken	normal	roller_broken	inner_broken:2票; roller_broken:2票; normal:1票	inner_broken:19.8%; normal:28.5%; roller_broken:40.9%
+test0910	inner_broken	60.0%	inner_broken	outer_missing	inner_broken	inner_broken	outer_missing	inner_broken:3票; outer_missing:2票	inner_broken:50.3%; outer_missing:45.9%
+test0911	roller_broken	60.0%	outer_missing	roller_broken	outer_missing	roller_broken	roller_broken	roller_broken:3票; outer_missing:2票	inner_broken:27.8%; normal:14.6%; outer_missing:25.4%; roller_broken:32.0%
+test0912	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0913	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:10.3%; normal:24.1%; roller_broken:59.5%
+test0914	inner_broken	60.0%	inner_broken	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken:3票; roller_broken:2票	inner_broken:32.7%; normal:24.0%; outer_missing:11.4%; roller_broken:30.8%
+test0915	roller_broken	80.0%	roller_broken	normal	roller_broken	roller_broken	roller_broken	roller_broken:4票; normal:1票	inner_broken:14.9%; normal:33.0%; roller_broken:46.9%
+test0916	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:75.9%; roller_broken:19.1%
+test0917	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:86.8%
+test0918	inner_wear	60.0%	inner_wear	inner_wear	inner_wear	roller_broken	roller_broken	inner_wear:3票; roller_broken:2票	inner_broken:11.0%; inner_wear:36.3%; normal:18.9%; roller_broken:24.5%
+test0919	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0920	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.5%
+test0921	outer_missing	80.0%	outer_missing	outer_missing	inner_broken	outer_missing	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:32.1%; outer_missing:51.9%
+test0922	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:45.3%; outer_missing:14.2%; roller_broken:25.0%
+test0923	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0924	roller_broken	60.0%	roller_broken	normal	roller_broken	roller_broken	normal	roller_broken:3票; normal:2票	inner_broken:13.3%; normal:38.6%; roller_broken:41.0%
+test0925	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:26.9%; outer_missing:58.4%
+test0926	inner_broken	60.0%	inner_broken	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken:3票; roller_broken:2票	inner_broken:33.8%; normal:13.3%; outer_missing:24.4%; roller_broken:26.6%
+test0927	inner_wear	60.0%	outer_missing	inner_wear	outer_missing	inner_wear	inner_wear	inner_wear:3票; outer_missing:2票	inner_broken:22.2%; inner_wear:32.2%; outer_missing:40.1%
+test0928	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:30.6%; outer_missing:59.9%
+test0929	normal	60.0%	inner_broken	normal	normal	normal	roller_broken	normal:3票; inner_broken:1票; roller_broken:1票	inner_broken:18.7%; normal:39.2%; roller_broken:35.3%
+test0930	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0931	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0932	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0933	inner_broken	80.0%	inner_broken	outer_missing	inner_broken	inner_broken	inner_broken	inner_broken:4票; outer_missing:1票	inner_broken:53.9%; outer_missing:38.5%
+test0934	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	normal:19.6%; roller_broken:67.8%
+test0935	inner_wear	80.0%	inner_wear	inner_wear	inner_broken	inner_wear	inner_wear	inner_wear:4票; inner_broken:1票	inner_broken:32.8%; inner_wear:53.8%
+test0936	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0937	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:93.4%
+test0938	normal	80.0%	normal	normal	roller_broken	normal	normal	normal:4票; roller_broken:1票	inner_broken:15.8%; normal:44.4%; roller_broken:36.8%
+test0939	inner_broken	60.0%	outer_missing	inner_broken	outer_missing	inner_broken	inner_broken	inner_broken:3票; outer_missing:2票	inner_broken:44.4%; outer_missing:33.5%; roller_broken:14.2%
+test0940	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:21.0%; inner_wear:12.9%; outer_missing:50.6%
+test0941	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:23.5%; outer_missing:72.0%
+test0942	normal	40.0%	inner_broken	normal	roller_broken	roller_broken	normal	normal:2票; roller_broken:2票; inner_broken:1票	inner_broken:17.1%; normal:39.0%; roller_broken:33.9%
+test0943	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:16.3%; normal:19.8%; roller_broken:55.2%
+test0944	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear:4票; roller_broken:1票	inner_broken:12.7%; inner_wear:50.2%; roller_broken:16.7%
+test0945	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:59.3%; inner_wear:11.5%; outer_missing:10.4%
+test0946	outer_missing	40.0%	outer_missing	inner_broken	outer_missing	normal	inner_broken	outer_missing:2票; inner_broken:2票; normal:1票	inner_broken:30.7%; normal:18.1%; outer_missing:34.2%; roller_broken:16.2%
+test0947	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0948	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear	inner_wear:4票; roller_broken:1票	inner_broken:12.0%; inner_wear:50.9%; roller_broken:22.3%
+test0949	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:24.9%; outer_missing:73.3%
+test0950	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:89.0%
+test0951	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:11.7%; outer_missing:86.4%
+test0952	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:17.0%; outer_missing:77.6%
+test0953	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0954	inner_broken	40.0%	inner_broken	normal	inner_broken	roller_broken	normal	inner_broken:2票; normal:2票; roller_broken:1票	inner_broken:27.5%; normal:36.3%; outer_missing:10.1%; roller_broken:24.7%
+test0955	outer_missing	60.0%	inner_broken	inner_broken	outer_missing	outer_missing	outer_missing	outer_missing:3票; inner_broken:2票	inner_broken:36.0%; outer_missing:52.3%
+test0956	inner_wear	40.0%	normal	inner_wear	inner_broken	roller_broken	inner_wear	inner_wear:2票; normal:1票; inner_broken:1票; roller_broken:1票	inner_broken:19.8%; inner_wear:27.3%; normal:19.8%; outer_missing:11.3%; roller_broken:21.1%
+test0957	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:44.2%; normal:12.0%; outer_missing:21.8%; roller_broken:18.0%
+test0958	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear:4票; roller_broken:1票	inner_wear:62.0%; roller_broken:10.8%; roller_wear:10.2%
+test0959	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	normal	inner_broken	inner_broken:4票; normal:1票	inner_broken:44.9%; normal:16.9%; outer_missing:20.3%; roller_broken:15.0%
+test0960	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0961	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:53.4%; roller_broken:31.9%
+test0962	normal	80.0%	normal	normal	inner_broken	normal	normal	normal:4票; inner_broken:1票	inner_broken:13.8%; normal:46.7%; roller_broken:29.8%
+test0963	inner_broken	60.0%	inner_broken	inner_wear	inner_broken	roller_broken	inner_broken	inner_broken:3票; inner_wear:1票; roller_broken:1票	inner_broken:34.7%; inner_wear:22.5%; roller_broken:24.7%
+test0964	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test0965	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	roller_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:46.9%; normal:15.8%; outer_missing:14.8%; roller_broken:21.4%
+test0966	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0967	normal	60.0%	normal	normal	roller_broken	normal	roller_broken	normal:3票; roller_broken:2票	inner_broken:20.1%; normal:34.0%; outer_missing:12.2%; roller_broken:32.2%
+test0968	outer_missing	60.0%	outer_missing	outer_missing	outer_missing	normal	inner_wear	outer_missing:3票; normal:1票; inner_wear:1票	inner_broken:16.3%; inner_wear:19.6%; normal:19.5%; outer_missing:28.0%; roller_broken:16.1%
+test0969	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:70.8%; outer_missing:21.5%
+test0970	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:63.9%; outer_missing:25.7%
+test0971	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0972	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0973	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0974	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0975	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0976	inner_wear	60.0%	outer_missing	inner_wear	inner_wear	inner_broken	inner_wear	inner_wear:3票; outer_missing:1票; inner_broken:1票	inner_broken:28.5%; inner_wear:28.9%; outer_missing:27.3%; roller_broken:12.5%
+test0977	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:31.3%; outer_missing:65.9%
+test0978	roller_broken	80.0%	roller_broken	normal	roller_broken	roller_broken	roller_broken	roller_broken:4票; normal:1票	normal:41.4%; roller_broken:49.7%
+test0979	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:98.6%
+test0980	outer_missing	60.0%	outer_missing	inner_wear	outer_missing	inner_wear	outer_missing	outer_missing:3票; inner_wear:2票	inner_broken:17.3%; inner_wear:38.0%; outer_missing:35.5%
+test0981	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0982	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0983	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_wear:10.5%; normal:13.1%; outer_missing:61.3%
+test0984	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:30.4%; outer_missing:65.1%
+test0985	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	normal:51.5%; roller_broken:40.0%
+test0986	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:24.2%; outer_missing:65.0%
+test0987	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:69.5%; roller_broken:23.2%
+test0988	inner_wear	40.0%	inner_wear	inner_wear	roller_broken	normal	roller_broken	inner_wear:2票; roller_broken:2票; normal:1票	inner_wear:28.3%; normal:25.9%; roller_broken:27.5%
+test0989	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:42.0%; outer_missing:26.3%; roller_broken:14.3%
+test0990	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0991	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:30.4%; outer_missing:58.6%
+test0992	inner_wear	80.0%	inner_broken	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:4票; inner_broken:1票	inner_broken:15.3%; inner_wear:57.3%; outer_missing:10.3%; roller_broken:11.3%
+test0993	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0994	outer_missing	60.0%	outer_missing	inner_broken	outer_missing	inner_broken	outer_missing	outer_missing:3票; inner_broken:2票	inner_broken:41.8%; outer_missing:52.8%
+test0995	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0996	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test0997	outer_missing	80.0%	normal	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:4票; normal:1票	inner_broken:14.8%; normal:28.0%; outer_missing:47.2%
+test0998	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:25.4%; outer_missing:72.4%
+test0999	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:10.4%; inner_wear:62.3%; outer_missing:23.9%
+test1000	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1001	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:53.0%; roller_broken:38.0%
+test1002	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:71.6%; inner_wear:20.4%
+test1003	outer_missing	80.0%	outer_missing	inner_broken	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:36.6%; outer_missing:40.1%; roller_broken:15.8%
+test1004	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1005	normal	60.0%	inner_wear	inner_wear	normal	normal	normal	normal:3票; inner_wear:2票	inner_wear:37.4%; normal:29.9%; roller_broken:19.1%
+test1006	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1007	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1008	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	outer_missing:91.4%
+test1009	inner_wear	60.0%	inner_broken	inner_wear	inner_wear	inner_wear	inner_broken	inner_wear:3票; inner_broken:2票	inner_broken:39.2%; inner_wear:53.3%
+test1010	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	normal	outer_missing	outer_missing:4票; normal:1票	inner_broken:21.1%; normal:16.5%; outer_missing:47.0%
+test1011	inner_broken	60.0%	inner_broken	inner_broken	inner_broken	outer_missing	outer_missing	inner_broken:3票; outer_missing:2票	inner_broken:38.7%; outer_missing:47.6%
+test1012	roller_broken	60.0%	normal	roller_broken	normal	roller_broken	roller_broken	roller_broken:3票; normal:2票	normal:42.4%; roller_broken:49.2%
+test1013	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:35.5%; outer_missing:52.2%
+test1014	inner_wear	60.0%	inner_wear	inner_wear	inner_wear	inner_broken	inner_broken	inner_wear:3票; inner_broken:2票	inner_broken:31.1%; inner_wear:39.1%; outer_missing:11.7%
+test1015	inner_broken	60.0%	inner_broken	roller_broken	inner_broken	roller_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:43.8%; normal:15.2%; outer_missing:12.2%; roller_broken:25.7%
+test1016	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:19.0%; normal:12.5%; outer_missing:48.5%; roller_broken:16.1%
+test1017	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1018	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:82.2%
+test1019	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:59.4%; outer_missing:22.3%
+test1020	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1021	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	normal	roller_broken	roller_broken:4票; normal:1票	normal:33.1%; roller_broken:54.9%
+test1022	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:18.5%; outer_missing:74.6%
+test1023	inner_broken	80.0%	inner_broken	inner_broken	outer_missing	inner_broken	inner_broken	inner_broken:4票; outer_missing:1票	inner_broken:67.4%; outer_missing:20.7%
+test1024	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1025	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1026	outer_missing	80.0%	outer_missing	inner_broken	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:36.8%; outer_missing:46.4%
+test1027	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1028	normal	80.0%	normal	normal	normal	normal	inner_broken	normal:4票; inner_broken:1票	inner_broken:20.4%; normal:35.0%; outer_missing:14.7%; roller_broken:29.0%
+test1029	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1030	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1031	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:94.2%
+test1032	outer_missing	60.0%	inner_wear	inner_wear	outer_missing	outer_missing	outer_missing	outer_missing:3票; inner_wear:2票	inner_broken:17.1%; inner_wear:25.8%; outer_missing:50.1%
+test1033	inner_broken	60.0%	inner_broken	roller_broken	inner_broken	roller_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:34.6%; normal:11.3%; outer_missing:26.7%; roller_broken:25.5%
+test1034	roller_broken	80.0%	roller_broken	normal	roller_broken	roller_broken	roller_broken	roller_broken:4票; normal:1票	inner_broken:13.7%; normal:31.2%; roller_broken:47.6%
+test1035	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:56.7%; roller_broken:38.9%
+test1036	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:46.9%; outer_missing:27.3%; roller_broken:16.4%
+test1037	inner_wear	40.0%	inner_wear	normal	roller_broken	normal	inner_wear	inner_wear:2票; normal:2票; roller_broken:1票	inner_broken:12.6%; inner_wear:29.4%; normal:27.9%; roller_broken:25.4%
+test1038	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1039	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:57.5%; roller_broken:35.6%
+test1040	roller_broken	60.0%	normal	roller_broken	roller_broken	normal	roller_broken	roller_broken:3票; normal:2票	inner_broken:11.5%; normal:36.5%; roller_broken:49.1%
+test1041	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:18.4%; outer_missing:77.9%
+test1042	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1043	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:10.3%; normal:14.6%; outer_missing:67.9%
+test1044	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1045	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:99.0%
+test1046	inner_broken	80.0%	inner_broken	inner_broken	inner_broken	inner_broken	normal	inner_broken:4票; normal:1票	inner_broken:37.3%; normal:25.1%; outer_missing:12.6%; roller_broken:22.8%
+test1047	roller_broken	80.0%	inner_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:22.9%; normal:23.7%; outer_missing:15.6%; roller_broken:34.6%
+test1048	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	normal	roller_broken	roller_broken:4票; normal:1票	normal:39.4%; roller_broken:43.5%
+test1049	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:56.7%; normal:13.2%; outer_missing:11.8%; roller_broken:14.8%
+test1050	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:47.9%; outer_missing:10.9%; roller_broken:33.0%
+test1051	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:11.9%; normal:21.0%; roller_broken:53.5%
+test1052	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	inner_broken:14.6%; normal:40.0%; outer_missing:16.7%; roller_broken:22.1%
+test1053	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	normal:45.7%; roller_broken:43.2%
+test1054	inner_wear	80.0%	inner_wear	inner_wear	outer_missing	inner_wear	inner_wear	inner_wear:4票; outer_missing:1票	inner_wear:51.9%; outer_missing:25.9%
+test1055	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:15.9%; inner_wear:11.3%; outer_missing:61.3%
+test1056	normal	60.0%	normal	inner_broken	outer_missing	normal	normal	normal:3票; inner_broken:1票; outer_missing:1票	inner_broken:21.0%; normal:38.5%; outer_missing:16.4%; roller_broken:20.6%
+test1057	roller_broken	60.0%	outer_missing	roller_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; outer_missing:1票; inner_broken:1票	inner_broken:28.5%; inner_wear:13.7%; normal:11.6%; outer_missing:17.8%; roller_broken:27.9%
+test1058	inner_wear	60.0%	inner_wear	inner_wear	inner_wear	roller_broken	roller_broken	inner_wear:3票; roller_broken:2票	inner_wear:43.1%; normal:17.3%; roller_broken:35.4%
+test1059	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1060	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	roller_broken	inner_wear	inner_wear:4票; roller_broken:1票	inner_wear:67.8%; roller_broken:17.7%
+test1061	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:12.7%; outer_missing:85.8%
+test1062	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1063	outer_missing	40.0%	outer_missing	inner_broken	outer_missing	inner_broken	roller_broken	outer_missing:2票; inner_broken:2票; roller_broken:1票	inner_broken:26.6%; normal:21.8%; outer_missing:24.6%; roller_broken:25.0%
+test1064	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	inner_broken	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:32.6%; outer_missing:49.1%; roller_broken:10.2%
+test1065	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	outer_missing	inner_broken	outer_missing:4票; inner_broken:1票	inner_broken:48.3%; outer_missing:49.0%
+test1066	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:95.1%
+test1067	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1068	normal	80.0%	outer_missing	normal	normal	normal	normal	normal:4票; outer_missing:1票	inner_broken:17.9%; normal:43.7%; outer_missing:14.1%; roller_broken:23.9%
+test1069	inner_broken	60.0%	inner_broken	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken:3票; roller_broken:2票	inner_broken:35.0%; normal:16.0%; outer_missing:14.4%; roller_broken:26.3%
+test1070	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:20.5%; normal:21.5%; outer_missing:10.9%; roller_broken:46.4%
+test1071	roller_broken	60.0%	outer_missing	roller_broken	roller_broken	inner_broken	roller_broken	roller_broken:3票; outer_missing:1票; inner_broken:1票	inner_broken:32.6%; normal:12.4%; outer_missing:14.4%; roller_broken:32.1%
+test1072	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:66.0%; outer_missing:19.7%
+test1073	roller_broken	80.0%	roller_broken	roller_broken	roller_broken	normal	roller_broken	roller_broken:4票; normal:1票	inner_broken:10.2%; normal:39.9%; roller_broken:46.0%
+test1074	roller_broken	60.0%	roller_broken	roller_broken	inner_broken	normal	roller_broken	roller_broken:3票; inner_broken:1票; normal:1票	inner_broken:18.2%; normal:31.8%; roller_broken:44.9%
+test1075	outer_missing	80.0%	outer_missing	outer_missing	outer_missing	inner_broken	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:29.7%; inner_wear:15.9%; outer_missing:49.1%
+test1076	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:96.0%
+test1077	normal	40.0%	outer_missing	normal	inner_broken	normal	inner_broken	normal:2票; inner_broken:2票; outer_missing:1票	inner_broken:31.6%; normal:24.2%; outer_missing:23.5%; roller_broken:20.1%
+test1078	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	outer_missing:92.9%
+test1079	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	normal:47.9%; outer_missing:12.3%; roller_broken:32.1%
+test1080	roller_broken	80.0%	inner_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; inner_broken:1票	inner_broken:27.0%; normal:25.6%; roller_broken:40.4%
+test1081	outer_missing	60.0%	inner_broken	inner_broken	outer_missing	outer_missing	outer_missing	outer_missing:3票; inner_broken:2票	inner_broken:38.6%; outer_missing:39.1%; roller_broken:15.4%
+test1082	normal	80.0%	normal	normal	normal	normal	roller_broken	normal:4票; roller_broken:1票	inner_broken:14.3%; normal:43.0%; roller_broken:37.7%
+test1083	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:74.9%; outer_missing:12.3%
+test1084	inner_broken	60.0%	inner_broken	roller_broken	roller_broken	inner_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:38.5%; normal:13.1%; roller_broken:36.4%
+test1085	roller_broken	100.0%	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:5票	inner_broken:23.7%; normal:24.5%; roller_broken:49.1%
+test1086	inner_broken	80.0%	roller_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:4票; roller_broken:1票	inner_broken:49.7%; outer_missing:11.0%; roller_broken:34.1%
+test1087	normal	60.0%	inner_wear	normal	normal	roller_broken	normal	normal:3票; inner_wear:1票; roller_broken:1票	inner_wear:14.2%; normal:43.8%; roller_broken:24.6%
+test1088	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:13.4%; outer_missing:85.0%
+test1089	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_broken:10.9%; inner_wear:73.1%; roller_broken:12.3%
+test1090	outer_missing	80.0%	outer_missing	inner_broken	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_broken:1票	inner_broken:27.7%; outer_missing:62.4%
+test1091	normal	80.0%	inner_broken	normal	normal	normal	normal	normal:4票; inner_broken:1票	inner_broken:21.3%; normal:44.5%; outer_missing:16.9%; roller_broken:16.5%
+test1092	inner_wear	80.0%	inner_wear	inner_wear	outer_missing	inner_wear	inner_wear	inner_wear:4票; outer_missing:1票	inner_wear:57.1%; outer_missing:18.5%
+test1093	outer_missing	60.0%	normal	outer_missing	outer_missing	normal	outer_missing	outer_missing:3票; normal:2票	inner_broken:21.7%; normal:21.6%; outer_missing:37.5%; roller_broken:18.0%
+test1094	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1095	roller_broken	40.0%	outer_missing	roller_broken	normal	normal	roller_broken	roller_broken:2票; normal:2票; outer_missing:1票	inner_broken:17.4%; normal:26.1%; outer_missing:19.9%; roller_broken:26.3%
+test1096	normal	40.0%	inner_wear	normal	outer_missing	normal	outer_missing	normal:2票; outer_missing:2票; inner_wear:1票	inner_broken:10.7%; inner_wear:13.6%; normal:25.3%; outer_missing:35.3%; roller_broken:14.7%
+test1097	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:26.3%; outer_missing:64.9%
+test1098	roller_broken	60.0%	inner_broken	roller_broken	roller_broken	roller_broken	normal	roller_broken:3票; inner_broken:1票; normal:1票	inner_broken:33.3%; normal:27.6%; roller_broken:31.9%
+test1099	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:56.4%; roller_broken:28.5%
+test1100	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test1101	inner_broken	80.0%	outer_missing	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:4票; outer_missing:1票	inner_broken:44.6%; outer_missing:32.0%; roller_broken:15.7%
+test1102	outer_missing	60.0%	outer_missing	outer_missing	outer_missing	normal	normal	outer_missing:3票; normal:2票	inner_broken:11.8%; normal:30.4%; outer_missing:47.7%
+test1103	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1104	inner_broken	60.0%	inner_broken	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken:3票; roller_broken:2票	inner_broken:38.6%; normal:17.1%; roller_broken:36.5%
+test1105	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:20.9%; normal:13.7%; outer_missing:42.8%; roller_broken:16.0%
+test1106	normal	60.0%	normal	normal	roller_broken	normal	roller_broken	normal:3票; roller_broken:2票	normal:48.3%; roller_broken:41.0%
+test1107	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:58.8%; outer_missing:23.1%; roller_broken:13.0%
+test1108	inner_broken	100.0%	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken	inner_broken:5票	inner_broken:48.2%; inner_wear:14.8%; roller_broken:23.8%
+test1109	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1110	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:22.3%; outer_missing:75.8%
+test1111	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1112	normal	60.0%	normal	roller_broken	normal	normal	roller_broken	normal:3票; roller_broken:2票	normal:47.9%; roller_broken:42.8%
+test1113	roller_broken	60.0%	outer_missing	roller_broken	roller_broken	normal	roller_broken	roller_broken:3票; outer_missing:1票; normal:1票	inner_broken:19.0%; normal:21.4%; outer_missing:25.8%; roller_broken:28.5%
+test1114	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:89.5%
+test1115	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:85.8%
+test1116	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:27.0%; outer_missing:60.1%
+test1117	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1118	outer_missing	100.0%	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing	outer_missing:5票	inner_broken:17.0%; outer_missing:73.2%
+test1119	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1120	inner_broken	60.0%	inner_broken	inner_broken	roller_broken	roller_broken	inner_broken	inner_broken:3票; roller_broken:2票	inner_broken:43.8%; normal:15.4%; roller_broken:33.4%
+test1121	roller_broken	60.0%	roller_broken	inner_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:2票	inner_broken:32.8%; normal:22.8%; roller_broken:33.7%
+test1122	normal	100.0%	normal	normal	normal	normal	normal	normal:5票	normal:75.4%; roller_broken:21.9%
+test1123	normal	80.0%	normal	inner_wear	normal	normal	normal	normal:4票; inner_wear:1票	inner_wear:14.8%; normal:50.4%; roller_broken:25.2%
+test1124	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1125	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.9%
+test1126	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:98.7%
+test1127	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	normal	inner_wear	inner_wear:4票; normal:1票	inner_broken:14.6%; inner_wear:32.7%; normal:21.0%; outer_missing:10.9%; roller_broken:19.8%
+test1128	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:99.8%
+test1129	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:70.9%; outer_missing:17.8%
+test1130	inner_wear	100.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear	inner_wear:5票	inner_wear:75.7%; roller_broken:13.4%
+test1131	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1132	roller_wear	100.0%	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear	roller_wear:5票	roller_wear:100.0%
+test1133	inner_broken	60.0%	inner_wear	inner_wear	inner_broken	inner_broken	inner_broken	inner_broken:3票; inner_wear:2票	inner_broken:29.1%; inner_wear:34.0%; roller_broken:19.6%
+test1134	inner_wear	60.0%	inner_wear	inner_wear	inner_broken	inner_wear	inner_broken	inner_wear:3票; inner_broken:2票	inner_broken:27.3%; inner_wear:50.4%; outer_missing:18.5%
+test1135	inner_wear	80.0%	inner_wear	inner_wear	inner_wear	inner_wear	inner_broken	inner_wear:4票; inner_broken:1票	inner_broken:31.5%; inner_wear:55.9%
+test1136	outer_missing	80.0%	outer_missing	inner_wear	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_wear:1票	inner_broken:20.9%; inner_wear:14.6%; outer_missing:59.1%
+test1137	outer_missing	80.0%	outer_missing	inner_wear	outer_missing	outer_missing	outer_missing	outer_missing:4票; inner_wear:1票	inner_broken:17.9%; inner_wear:31.2%; outer_missing:46.7%
+test1138	roller_broken	60.0%	roller_broken	inner_broken	inner_broken	roller_broken	roller_broken	roller_broken:3票; inner_broken:2票	inner_broken:28.6%; normal:10.5%; outer_missing:22.7%; roller_broken:30.2%
+test1139	normal	80.0%	roller_broken	normal	normal	normal	normal	normal:4票; roller_broken:1票	inner_broken:10.6%; normal:43.8%; roller_broken:40.0%
+test1140	roller_broken	80.0%	normal	roller_broken	roller_broken	roller_broken	roller_broken	roller_broken:4票; normal:1票	inner_broken:14.8%; normal:34.8%; outer_missing:10.2%; roller_broken:39.1%
