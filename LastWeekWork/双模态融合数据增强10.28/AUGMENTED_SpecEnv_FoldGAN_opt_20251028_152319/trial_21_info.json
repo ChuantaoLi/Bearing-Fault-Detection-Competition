@@ -1,0 +1,36 @@
+{
+  "trial_number": 21,
+  "config": {
+    "spec_hidden": 64,
+    "env_hidden": 64,
+    "spec_attention": "cbam",
+    "env_attention": "self",
+    "fusion_method": "concat",
+    "dropout": 0.3009225297674945,
+    "batch_size": 16,
+    "lr": 0.0019352572710548918,
+    "weight_decay": 0.00014962416628248217,
+    "optimizer": "AdamW",
+    "scheduler_factor": 0.5142840237833871,
+    "scheduler_patience": 12,
+    "max_grad_norm": 0.8191277220265756,
+    "noise_level": 0.024683405609639,
+    "loss_type": "focal",
+    "use_label_smoothing": true,
+    "use_center_loss": false,
+    "focal_alpha": 0.45077275351619384,
+    "focal_gamma": 2.0982488402697816,
+    "label_smoothing": 0.10134305897665043,
+    "center_loss_weight": 0.00419887328764636
+  },
+  "mean_acc": 61.74418604651163,
+  "std_acc": 0.8544731660871553,
+  "best_acc": 62.7906976744186,
+  "fold_accs": [
+    62.7906976744186,
+    62.2093023255814,
+    62.2093023255814,
+    60.46511627906977,
+    61.04651162790697
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "rank": 1,
+    "accuracy": 67.44186046511628,
+    "trial_number": 26,
+    "fold_number": 2,
+    "n_train": 864,
+    "n_val": 172
+  },
+  {
+    "rank": 2,
+    "accuracy": 66.27906976744185,
+    "trial_number": 15,
+    "fold_number": 2,
+    "n_train": 864,
+    "n_val": 172
+  },
+  {
+    "rank": 3,
+    "accuracy": 65.69767441860465,
+    "trial_number": 27,
+    "fold_number": 2,
+    "n_train": 864,
+    "n_val": 172
+  },
+  {
+    "rank": 4,
+    "accuracy": 65.69767441860465,
+    "trial_number": 34,
+    "fold_number": 5,
+    "n_train": 864,
+    "n_val": 172
+  },
+  {
+    "rank": 5,
+    "accuracy": 65.69767441860465,
+    "trial_number": 41,
+    "fold_number": 2,
+    "n_train": 864,
+    "n_val": 172
+  }
+]
